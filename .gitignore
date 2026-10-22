@@ -1,0 +1,35 @@
+# ---------- 系统与编辑器垃圾 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*~
+
+# ---------- Obsidian 本地状态（与知识库内容无关） ----------
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+
+# ---------- 手写图禁止落入电子笔记资源目录（CLAUDE.md §6.4） ----------
+computer/assets/
+
+# ---------- 依赖与构建产物（当前无代码，预留） ----------
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ---------- 环境变量与密钥 ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key

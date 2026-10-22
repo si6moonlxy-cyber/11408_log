@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# ================================================================
+# pre-commit hook — 文档链接检查 + 知识库铁律强制层
+# ================================================================
+# 只跑"秒级"检查，保证提交手感：
+#   1. 文档链接：Markdown 相对链接可达、双链目标可解析（占位双链仅告警）。
+#   2. 知识库铁律（CLAUDE.md §6.4 / §8.1 / §7.2）：
+#      禁嵌入手写图、禁绝对本地路径、tags 不含 11408、禁重复同义笔记。
+#
+# 慢检查（编码/换行/大文件）放在 scripts/ci-check.sh 与 CI 里。
+#
+# 安装（一次性）: git config core.hooksPath .githooks
+# 临时跳过:       git commit --no-verify
+# ================================================================
+
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+
+echo "▶ [pre-commit] 检查文档链接..."
+bash "$ROOT_DIR/scripts/doc-link-check.sh"
+
+echo "▶ [pre-commit] 知识库铁律检查..."
+bash "$ROOT_DIR/scripts/vault-guard.sh"

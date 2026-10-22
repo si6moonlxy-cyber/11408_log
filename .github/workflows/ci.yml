@@ -1,0 +1,68 @@
+# ================================================================
+# 11408 知识库 — 持续集成
+# ================================================================
+# 设计原则（沿用 InsightGraph 的 CI 约定）：
+#   1. 硬门禁 0 容忍：链接 / 知识库铁律 / 编码 / 密钥，出现任何问题即失败
+#   2. 不引入需要联网或随机性的检查，CI 结果必须可复现
+#   3. 检查范围随仓库形态裁剪：本库是 Markdown 知识库，无 lint/typecheck/test
+#      —— 用的是「文档链接 + Obsidian 双链 + 铁律 + 编码 + 大文件」这一组守卫
+#   4. 本地同规则由 .githooks（pre-commit / pre-push）与 scripts/ci-check.sh
+#      执行，三处共用同一批脚本，避免本地与 CI 口径漂移
+# ================================================================
+
+name: CI
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  # ------------------------------------------------------------
+  # 文档链接（立即生效）
+  # ------------------------------------------------------------
+  docs:
+    name: Docs — 链接检查
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check document links
+        run: bash scripts/doc-link-check.sh
+
+  # ------------------------------------------------------------
+  # 知识库铁律（CLAUDE.md §6.4 / §7.2 / §8 / §8.1 / §19）
+  # 禁嵌入手写图、禁绝对路径、tags 不含 11408、命名与 frontmatter
+  # ------------------------------------------------------------
+  guard:
+    name: Guard — 知识库铁律
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Vault rules guard
+        run: bash scripts/vault-guard.sh
+
+  # ------------------------------------------------------------
+  # 全量本地口径（编码 / 换行 / 大文件 / 密钥 / 钩子状态）
+  # 与 bash scripts/ci-check.sh 完全一致
+  # ------------------------------------------------------------
+  hygiene:
+    name: Hygiene — 编码 + 大文件 + 密钥
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Full pre-push check
+        run: bash scripts/ci-check.sh
