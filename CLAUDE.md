@@ -50,9 +50,9 @@
 | 计算机网络 | `CN` | `computer/CN/` | `docs/computer_notes_shot/CN/` | `computer/CN/README.md` | 未初始化 |
 | 数学（一） | `MATH` | `math/` | `docs/math_notes_shot/` | 未建立 | 未初始化 |
 | 英语（一） | `EN` | `english/` | `docs/english_notes_shot/` | 未建立 | 未初始化 |
-| 政治 | `POL` | `politics/` | `docs/politics_notes_shot/` | 未建立 | 未初始化（仅有原始资料） |
+| 政治 | `POL` | `politics/` | `docs/politics_notes_shot/` | `politics/README.md` | 已初始化 |
 
-> `math/`、`english/`、`politics/` 目前在版本库中没有文件（Git 不追踪空目录）。这三科的整理形态与 408 不同构，**不得代为推定**；学科规则建立前不新建笔记。
+> `math/`、`english/` 目前在版本库中没有文件（Git 不追踪空目录）。这两科的整理形态与 408 不同构，**不得代为推定**；学科规则建立前不新建笔记。
 
 ### 2.3 处理任何学习资料前的读取顺序
 
