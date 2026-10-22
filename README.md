@@ -11,10 +11,11 @@
 ```text
 11408/
 ├── CLAUDE.md                 # 知识库维护 SOP（唯一规范真源）
-├── computer/                 # 电子笔记（Obsidian 正文）
+├── computer/                 # 电子笔记（Obsidian 正文），按学科分目录
 │   ├── README.md
-│   ├── 数据结构 Part 1｜知识主干.md
-│   └── 数据结构 Part1｜代码与习题总结.md
+│   └── 数据结构/
+│       ├── 数据结构 Part 1｜知识主干.md
+│       └── 数据结构 Part1｜代码与习题总结.md
 ├── docs/                     # 原始资料（不嵌入正文）
 │   ├── computer_notes_shot/  # 手写笔记原图归档
 │   │   └── 数据结构/
