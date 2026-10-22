@@ -10,12 +10,19 @@
 
 ```text
 11408/
-├── CLAUDE.md                 # 知识库维护 SOP（唯一规范真源）
-├── computer/                 # 电子笔记（Obsidian 正文），按学科分目录
-│   ├── README.md
-│   └── 数据结构/
-│       ├── 数据结构 Part 1｜知识主干.md
-│       └── 数据结构 Part1｜代码与习题总结.md
+├── CLAUDE.md                 # 全局 SOP（跨学科规范唯一真源）+ 学科路由表
+├── computer/                 # 408 电子笔记（Obsidian 正文），按学科分目录
+│   ├── 数据结构/
+│   │   ├── README.md         # 学科规则：教材口径 + 禁止提前扩写
+│   │   ├── 数据结构 Part 1｜知识主干.md
+│   │   └── 数据结构 Part1｜代码与习题总结.md
+│   ├── 计算机组成原理/
+│   │   └── README.md         # 未初始化
+│   ├── 操作系统/
+│   │   └── README.md         # 未初始化
+│   └── 计算机网络/
+│       └── README.md         # 未初始化
+├── math/ · english/ · politics/   # 未初始化（版本库中暂无文件）
 ├── docs/                     # 原始资料（不嵌入正文）
 │   ├── computer_notes_shot/  # 手写笔记原图归档
 │   │   └── 数据结构/
