@@ -22,6 +22,9 @@ computer/assets/
 # ---------- 只供人工阅读的原始资料，不入库 ----------
 docs/politics_notes_shot/PDF/
 
+# ---------- 抓取回来的原始语料（仅本地追溯，不入库） ----------
+docs/_scrape/
+
 # ---------- 依赖与构建产物（当前无代码，预留） ----------
 node_modules/
 dist/
