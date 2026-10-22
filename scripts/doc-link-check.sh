@@ -148,7 +148,7 @@ if [ "$AMB_N" -gt 0 ]; then
     echo "❌ 发现 ${AMB_N} 个歧义双链（同名文件不止一个，Obsidian 落点不确定）："
     sed 's/^/   /' "$AMB"
     echo ""
-    echo "   处理: 改用相对路径 Markdown 链接指向具体文件（如 [数据结构规则](computer/数据结构/README.md)）"
+    echo "   处理: 改用相对路径 Markdown 链接指向具体文件（如 [数据结构规则](computer/DS/README.md)）"
     exit 1
 fi
 

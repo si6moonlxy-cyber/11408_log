@@ -11,23 +11,23 @@
 ```text
 11408/
 ├── CLAUDE.md                 # 全局 SOP（跨学科规范唯一真源）+ 学科路由表
-├── 手写笔记摄入SOP.md         # 按需加载：只在摄入新一批手写图时读
+├── INGEST-SOP.md             # 按需加载：只在摄入新一批手写图时读
 ├── computer/                 # 408 电子笔记（Obsidian 正文），按学科分目录
-│   ├── 数据结构/
+│   ├── DS/
 │   │   ├── README.md         # 学科规则：教材口径 + 禁止提前扩写
-│   │   ├── 数据结构 Part 1｜知识主干.md
-│   │   └── 数据结构 Part1｜代码与习题总结.md
-│   ├── 计算机组成原理/
+│   │   ├── DS-P1-Knowledge.md
+│   │   └── DS-P1-Code-Exercises.md
+│   ├── CO/
 │   │   └── README.md         # 未初始化
-│   ├── 操作系统/
+│   ├── OS/
 │   │   └── README.md         # 未初始化
-│   └── 计算机网络/
+│   └── CN/
 │       └── README.md         # 未初始化
 ├── math/ · english/ · politics/   # 未初始化（版本库中暂无文件）
 ├── docs/                     # 原始资料（不嵌入正文）
 │   ├── computer_notes_shot/  # 手写笔记原图归档
-│   │   └── 数据结构/
-│   │       ├── 原图清单.md
+│   │   └── DS/
+│   │       ├── manifest.md
 │   │       └── *.zip         # 原始扫描图
 │   └── politics_notes_shot/  # 政治资料纯文本（PDF 只留本地，不入库）
 ├── scripts/                  # 本地与 CI 共用的检查脚本
@@ -98,7 +98,7 @@ bash scripts/vault-guard.sh      # 知识库铁律
 
 ## 知识边界
 
-- 手写原图只保存在 `docs/computer_notes_shot/<学科>/`，不进入电子笔记展示，也不复制到 `computer/assets/`。
+- 手写原图只保存在 `docs/computer_notes_shot/<SUBJ>/`，不进入电子笔记展示，也不复制到 `computer/assets/`。
 - `[?]` 表示原图无法可靠辨认，不得自动消除。
 - 未验证的代码与未确认的答案不得标记为正确。
 - 未学习章节（查找 / 排序等）不提前补完，双链占位保留即可。

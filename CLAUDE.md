@@ -3,8 +3,8 @@
 ## 11408 Obsidian 学习总结与知识库维护 SOP
 
 > **本文件是跨学科规范的唯一真源。** 凡是四个学科都适用、且每次都要用的规则，只在这里写一次。
-> 各学科的教材口径与禁止扩写范围写在 `computer/<学科>/README.md`，路由见第 2 节。
-> 只在摄入新一批手写图片时才用的流程，见按需分支 [`手写笔记摄入SOP.md`](手写笔记摄入SOP.md)（第 12 节）。
+> 各学科的教材口径与禁止扩写范围写在 `computer/<SUBJ>/README.md`，路由见第 2 节。
+> 只在摄入新一批手写图片时才用的流程，见按需分支 [`INGEST-SOP.md`](INGEST-SOP.md)（第 12 节）。
 > 跨文件引用本文件时请用**节标题**（如「见本文《内容升级规则》」），不要用序号——序号会随重排变化。
 
 ### 1. 项目目标
@@ -20,7 +20,7 @@
 
 把手稿作为原始思考材料，提炼其中的学习问题、推导、算法理解、题型规律和待确认点，持续维护为可在 **Obsidian** 中长期检索、双链、复习，并可由后续 Agent 继续扩展的 Markdown 知识库。逐页识别或 OCR 只服务于理解与追溯，不是最终交付形式。
 
-笔记正文按学科分目录存放（`computer/<学科>/`），手写原图单独存放于 `docs/<学科>_notes_shot/`，不属于 Obsidian 正文知识库。完整目录与各科路由见第 2 节。
+笔记正文按学科分目录存放（`computer/<SUBJ>/`），手写原图单独存放于 `docs/<SUBJ>_notes_shot/`，不属于 Obsidian 正文知识库。完整目录与各科路由见第 2 节。
 
 > 如果用户后续沿用其他目录名称，以现有 Vault 实际结构为准，不要擅自批量改名。
 
@@ -33,8 +33,8 @@
 | 层级 | 文件 | 只允许写 |
 |---|---|---|
 | 全局规范 | `CLAUDE.md`（本文件） | 跨学科不变、且每次都需要的方法与规范 |
-| 学科状态 | `computer/<学科>/README.md` | 默认教材口径、禁止提前扩写清单、学科既有约定 |
-| 按需分支 | `手写笔记摄入SOP.md` | 只在摄入新一批手写图时才用的流程 |
+| 学科状态 | `computer/<SUBJ>/README.md` | 默认教材口径、禁止提前扩写清单、学科既有约定 |
+| 按需分支 | `INGEST-SOP.md` | 只在摄入新一批手写图时才用的流程 |
 
 判据：**这条规则在四个学科里都会写出来吗？会 → 它属于 `CLAUDE.md`，只在那一处出现一次。**
 
@@ -42,15 +42,15 @@
 
 ### 2.2 学科路由表
 
-| 学科 | 笔记目录 | 原图目录 | 学科规则 | 状态 |
-|---|---|---|---|---|
-| 数据结构 | `computer/数据结构/` | `docs/computer_notes_shot/数据结构/` | `computer/数据结构/README.md` | 已初始化 |
-| 计算机组成原理 | `computer/计算机组成原理/` | `docs/computer_notes_shot/计算机组成原理/` | `computer/计算机组成原理/README.md` | 未初始化 |
-| 操作系统 | `computer/操作系统/` | `docs/computer_notes_shot/操作系统/` | `computer/操作系统/README.md` | 未初始化 |
-| 计算机网络 | `computer/计算机网络/` | `docs/computer_notes_shot/计算机网络/` | `computer/计算机网络/README.md` | 未初始化 |
-| 数学（一） | `math/` | `docs/math_notes_shot/` | 未建立 | 未初始化 |
-| 英语（一） | `english/` | `docs/english_notes_shot/` | 未建立 | 未初始化 |
-| 政治 | `politics/` | `docs/politics_notes_shot/` | 未建立 | 未初始化（仅有原始资料） |
+| 学科 | 代号 | 笔记目录 | 原图目录 | 学科规则 | 状态 |
+|---|---|---|---|---|---|
+| 数据结构 | `DS` | `computer/DS/` | `docs/computer_notes_shot/DS/` | `computer/DS/README.md` | 已初始化 |
+| 计算机组成原理 | `CO` | `computer/CO/` | `docs/computer_notes_shot/CO/` | `computer/CO/README.md` | 未初始化 |
+| 操作系统 | `OS` | `computer/OS/` | `docs/computer_notes_shot/OS/` | `computer/OS/README.md` | 未初始化 |
+| 计算机网络 | `CN` | `computer/CN/` | `docs/computer_notes_shot/CN/` | `computer/CN/README.md` | 未初始化 |
+| 数学（一） | `MATH` | `math/` | `docs/math_notes_shot/` | 未建立 | 未初始化 |
+| 英语（一） | `EN` | `english/` | `docs/english_notes_shot/` | 未建立 | 未初始化 |
+| 政治 | `POL` | `politics/` | `docs/politics_notes_shot/` | 未建立 | 未初始化（仅有原始资料） |
 
 > `math/`、`english/`、`politics/` 目前在版本库中没有文件（Git 不追踪空目录）。这三科的整理形态与 408 不同构，**不得代为推定**；学科规则建立前不新建笔记。
 
@@ -67,8 +67,8 @@
 
 | 需要知道 | 从哪里推导 |
 |---|---|
-| 该学科当前有哪些笔记 | `computer/<学科>/` 下 frontmatter 的 `subject` 匹配的 `.md` |
-| 手稿处理进度 | `docs/computer_notes_shot/<学科>/原图清单.md` 的「本轮归类」列 |
+| 该学科当前有哪些笔记 | `computer/<SUBJ>/` 下 frontmatter 的 `subject` 等于该科中文名的 `.md` |
+| 手稿处理进度 | `docs/computer_notes_shot/<SUBJ>/manifest.md` 的「本轮归类」列 |
 | 该学科禁止扩写的范围 | 该学科 `README.md` 的「禁止提前扩写」清单 |
 
 这三张清单**不要**在 README 里再手写一份——手抄件一旦与真源不一致，Agent 就会按错的那份走。
@@ -162,7 +162,7 @@
 
 ### 4.2 学科导航（MOC）
 
-同一学科笔记达到一定规模后，在该学科目录建立 `<学科> MOC.md`，按主题分组链到该科笔记，作为该科导航入口（`scripts/vault-guard.sh` 对 `*MOC*.md` 免 frontmatter 检查）。
+同一学科笔记达到一定规模后，在该学科目录建立 `<SUBJ>-MOC.md`，按主题分组链到该科笔记，作为该科导航入口（`scripts/vault-guard.sh` 对 `*MOC*.md` 免 frontmatter 检查）。
 
 ---
 
@@ -201,15 +201,15 @@
 笔记正文内部跳转优先使用 Wikilink：
 
 ```markdown
-[[数据结构｜查找]]
-[[图#最短路径]]
+[[DS-C07-Search]]
+[[DS-C06-Graph#最短路径]]
 ```
 
 三条约束：
 
 - Wikilink 只写文件名（不含路径），因此**文件 basename 必须唯一**（由 `vault-guard.sh` R6 强制）。
 - **不要写裸 `README.md` 的双链**：本库有多个 `README.md`，这种链接落点不确定，`doc-link-check.sh` 会判为死链。
-- **工程文件之间**（`CLAUDE.md` ↔ `README.md` ↔ `手写笔记摄入SOP.md` ↔ `scripts/`）改用相对路径 Markdown 链接（如 `[CLAUDE.md](../CLAUDE.md)`），由 `doc-link-check.sh` 硬门禁保护。
+- **工程文件之间**（`CLAUDE.md` ↔ `README.md` ↔ `INGEST-SOP.md` ↔ `scripts/`）改用相对路径 Markdown 链接（如 `[CLAUDE.md](../CLAUDE.md)`），由 `doc-link-check.sh` 硬门禁保护。
 
 不要把普通 Markdown 相对链接用于笔记正文的导航。
 
@@ -218,7 +218,7 @@
 需要更短的显示文字时：
 
 ```markdown
-[[数据结构 Part1｜代码与习题总结|代码与习题]]
+[[DS-P1-Code-Exercises|代码与习题]]
 ```
 
 ### 6.3 跳转到标题
@@ -226,7 +226,7 @@
 跨文档定位：
 
 ```markdown
-[[数据结构 Part1｜代码与习题总结#最短路径：距离状态与路径状态要一起维护]]
+[[DS-P1-Code-Exercises#最短路径：距离状态与路径状态要一起维护]]
 ```
 
 ### 6.4 手写笔记图片不进入电子笔记展示
@@ -236,12 +236,12 @@
 固定存储位置：
 
 ```text
-docs/computer_notes_shot/<学科>/
+docs/computer_notes_shot/<SUBJ>/
 ```
 
 Agent 处理手写图片时：
 
-1. 从 `docs/computer_notes_shot/<学科>/` 检索原始图片；
+1. 从 `docs/computer_notes_shot/<SUBJ>/` 检索原始图片；
 2. 仅提取、整理、总结其内容；
 3. 不在 Markdown 中插入图片引用（`!` + `[[...]]` 或 `!` + `[...](...)`）；
 4. 不将手写图片复制到 Obsidian `assets/` 目录；
@@ -256,29 +256,35 @@ Agent 处理手写图片时：
 
 ### 7.1 文件名
 
-优先：
+**路径与文件名一律 ASCII，不得出现中文。** 中文路径会让 `git ls-files` 的默认输出把路径转义加引号、使脚本静默跳过文件，也会破坏跨工具链接与 CI。
+
+统一格式：
 
 ```text
-主题｜子主题.md
+<SUBJ>-<KIND>-<Topic>.md
 ```
+
+- `<SUBJ>`：学科代号，`DS` / `CO` / `OS` / `CN` / `MATH` / `EN` / `POL`（见 2.2 路由表）。
+- `<KIND>`：章节用 `C<NN>`（两位数，与教材章序一致）；阶段文件用 `P<N>`；专题用 `Templates` / `WrongIndex` / `MOC`。
+- `<Topic>`：英文单词或通用缩写，首字母大写，多词用连字符连接。
 
 例如：
 
 ```text
-数据结构｜图.md
-数据结构｜查找.md
-数据结构｜算法模板.md
-数据结构｜错题索引.md
+DS-C06-Graph.md
+DS-C07-Search.md
+DS-Templates.md
+DS-WrongIndex.md
 ```
 
 阶段性文档：
 
 ```text
-数据结构 Part 1｜知识主干.md
-数据结构 Part1｜代码与习题总结.md
+DS-P1-Knowledge.md
+DS-P1-Code-Exercises.md
 ```
 
-学科规则文件固定为 `README.md`，放在该学科目录下。工程文档（`CLAUDE.md`、`README.md`、`手写笔记摄入SOP.md`）放在仓库根。
+学科规则文件固定为 `README.md`，放在该学科目录下。工程文档（`CLAUDE.md`、`README.md`、`INGEST-SOP.md`）放在仓库根。
 
 ### 7.2 禁止
 
@@ -337,7 +343,7 @@ chapter: 图
 source: 王道
 ```
 
-`subject` 字段是《学科路由与规则真源》2.4 中「该学科有哪些笔记」的推导依据，必须与该学科目录名一致。
+`subject` 取学科中文名（如 `数据结构`），与目录代号的对应关系见《学科路由与规则真源》2.2 路由表；它是 2.4 中「该学科有哪些笔记」的推导依据。
 
 ### 8.1 Tag 约束
 
@@ -507,7 +513,7 @@ head
 
 ## 12. 按需加载：手写笔记摄入 SOP
 
-处理**新一批手写图片**时，先读 [`手写笔记摄入SOP.md`](手写笔记摄入SOP.md)。它包含四份只在摄入期才用的流程：
+处理**新一批手写图片**时，先读 [`INGEST-SOP.md`](INGEST-SOP.md)。它包含四份只在摄入期才用的流程：
 
 | 该文件中的节 | 何时用 |
 |---|---|
@@ -530,17 +536,17 @@ head
 2. 先读取当前学科目录。
 3. 先搜索是否已有同主题文档。
 4. 优先更新已有文档。
-5. 禁止重复创建 `图.md`、`数据结构图.md`、`图结构.md` 等同义页面。
+5. 禁止重复创建 `DS-C06-Graph.md`、`DS-Graph.md`、`Graph.md` 等同义页面。
 6. 遵守《文件命名规范》。
 7. 笔记正文保持 Obsidian Wikilink，且 basename 唯一。
-8. 原始手写图片仅保存在 `docs/computer_notes_shot/<学科>/`，不得嵌入电子笔记。
+8. 原始手写图片仅保存在 `docs/computer_notes_shot/<SUBJ>/`，不得嵌入电子笔记。
 9. 原始手写图片不得因数字化完成而删除。
 10. `[?]` 不得自动消除。
 11. 未确认答案不得标记为正确。
 12. 新增内容必须判断属于：主干 / 学习总结 / 习题 / 错题 / 原始资料清单。
 13. 不主动扩写尚未学习章节（范围见该学科 `README.md` 的「禁止提前扩写」）。
 14. 修改前先理解现有上下文，禁止整页重写导致用户原有内容丢失。
-15. 摄入新一批手写图前先读 `手写笔记摄入SOP.md`（见《按需加载：手写笔记摄入 SOP》）。
+15. 摄入新一批手写图前先读 `INGEST-SOP.md`（见《按需加载：手写笔记摄入 SOP》）。
 
 ---
 
@@ -553,14 +559,14 @@ head
 - [ ] 已写开工声明（学科 + 已读规则文件路径）
 - [ ] 口径与该学科 `README.md` 的默认教材一致
 - [ ] 未加载与本任务无关的其他学科规则
-- [ ] 若本批含新图，已读 `手写笔记摄入SOP.md`
+- [ ] 若本批含新图，已读 `INGEST-SOP.md`
 
 ### 文件
 
 - [ ] 手写图片数量核对
 - [ ] 手写图片顺序合理
 - [ ] 重复图片已识别
-- [ ] 已从 `docs/computer_notes_shot/<学科>/` 正确检索源图
+- [ ] 已从 `docs/computer_notes_shot/<SUBJ>/` 正确检索源图
 - [ ] Markdown 中未嵌入手写图片
 
 ### 内容
@@ -634,7 +640,7 @@ Agent 默认习惯
 - 自动脑补手写模糊内容
 - 为追求完整提前补完未学章节
 - 未经确认大规模改目录
-- 删除 `docs/computer_notes_shot/<学科>/` 中的原始手写草稿图
+- 删除 `docs/computer_notes_shot/<SUBJ>/` 中的原始手写草稿图
 - 在电子 Markdown 笔记中嵌入手写笔记图片
 - 在 `tags` 中写入 `11408`
 - 覆盖用户已有手写推导
