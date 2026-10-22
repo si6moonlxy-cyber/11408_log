@@ -19,6 +19,9 @@ computer/assets/
 # ---------- 本机 Agent 本地状态 ----------
 .dsh-memory/
 
+# ---------- 只供人工阅读的原始资料，不入库 ----------
+docs/politics_notes_shot/PDF/
+
 # ---------- 依赖与构建产物（当前无代码，预留） ----------
 node_modules/
 dist/

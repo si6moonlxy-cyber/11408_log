@@ -20,7 +20,7 @@
 │   │   └── 数据结构/
 │   │       ├── 原图清单.md
 │   │       └── *.zip         # 原始扫描图
-│   └── politics_notes_shot/  # 政治资料（PDF / 纯文本）
+│   └── politics_notes_shot/  # 政治资料纯文本（PDF 只留本地，不入库）
 ├── scripts/                  # 本地与 CI 共用的检查脚本
 ├── .githooks/                # Git 钩子（commit-msg / pre-commit / pre-push）
 └── .github/workflows/ci.yml  # 持续集成
@@ -81,7 +81,11 @@ bash scripts/vault-guard.sh      # 知识库铁律
 
 ## 仓库体积
 
-原始资料以二进制形式入库：手写图 ZIP 与政治资料 PDF 合计约 150MB，其中单文件最大约 60MB（低于 GitHub 100MB 单文件硬限，但超过 50MB 会触发 large file 提示）。`scripts/ci-check.sh` 会对超过 95MB 的文件直接判失败。后续若继续追加大量扫描件，建议改用 Git LFS 或按批次拆分仓库。
+入库的原始资料只有两类：手写图 ZIP（约 66MB）与政治资料纯文本（约 6.5MB），仓库合计约 73MB，单文件最大约 38MB。
+
+政治资料的 PDF 只保留在本地，供人工阅读；`docs/politics_notes_shot/PDF/` 已列入 `.gitignore`，不进入版本库。
+
+`scripts/ci-check.sh` 对大文件设有阈值：超过 50MB 告警，超过 95MB 直接判失败（GitHub 单文件硬限 100MB）。后续若继续追加大量扫描件，建议改用 Git LFS 或按批次拆分仓库。
 
 ## 知识边界
 
