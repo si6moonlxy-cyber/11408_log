@@ -7,10 +7,10 @@ desktop.ini
 *.swp
 *~
 
-# ---------- Obsidian 本地状态（与知识库内容无关） ----------
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache/
+# ---------- Obsidian 本地状态：整目录不入库 ----------
+# 工作区布局、core/community 插件清单、外观等全是本机状态，且可能含本机路径；
+# 由 Obsidian 自己管理，不进版本库（2026-10-22 用户要求）。
+.obsidian/
 .trash/
 
 # ---------- 手写图禁止落入电子笔记资源目录（CLAUDE.md §6.4） ----------

@@ -41,6 +41,8 @@
 git config core.hooksPath .githooks
 ```
 
+`.obsidian/` 是 Obsidian 的本机状态（工作区布局、core/community 插件清单、外观等），已**整目录**列入 `.gitignore`，不进版本库；克隆后由 Obsidian 自行生成，不要提交。
+
 未执行这一步时钩子不会触发，CI 仍会拦截，但本地提交会失去最早一道保护。
 
 ## Git 钩子
