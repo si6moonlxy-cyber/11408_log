@@ -2,12 +2,17 @@
 # ================================================================
 # vault-guard.sh — 11408 知识库铁律 · 强制层（唯一真源）
 # ================================================================
-# 铁律来源：CLAUDE.md
-#   §6.4  手写笔记图片不得嵌入电子笔记，也不得放入 computer/assets/
-#   §7.2  禁止「新建文档1.md」「最终版.md」「笔记1.md」这类文件名
-#   §8.1  Obsidian tags 中不得出现 11408
-#   §8    正式笔记必须有 YAML frontmatter（type / subject / course）
-#   §19   不得重复创建同义笔记、不得使用绝对本地路径
+# 铁律来源：CLAUDE.md。引用一律用「节标题 + R 编号」，不用 § 序号
+# （序号会随 CLAUDE.md 重排变化，节标题才是稳定锚点）。
+#
+#   R1  《Obsidian 双链与源文件规范》6.4  手写笔记图片不得嵌入电子笔记
+#   R2  《禁止事项》                      不得使用不可移植的绝对本地路径
+#   R3  《YAML Frontmatter》8.1           Obsidian tags 中不得出现 11408
+#   R4  《文件命名规范》7.2               禁止「新建文档1.md」「最终版.md」这类文件名
+#   R5  《YAML Frontmatter》              正式笔记必须有 type / subject / course
+#   R6  《Agent 续写规则》                不得重复创建同义笔记（basename 唯一）
+#   R7  《Obsidian 双链与源文件规范》6.4  手写图不得落入 computer/assets/
+#   R8  《学科路由与规则真源》2.1         学科 README 只写状态，不得复制流程规则
 #
 # 执行点（三处，本脚本是唯一真源）：
 #   - .githooks/pre-commit        （本地最早拦截）
@@ -92,28 +97,28 @@ scan_rule() {
 : > "$WORK/hits.tmp"
 
 # ================================================================
-# R1 禁嵌入手写图（CLAUDE.md §6.4）
+# R1 禁嵌入手写图（CLAUDE.md《Obsidian 双链与源文件规范》6.4）
 # ================================================================
 scan_rule '(!\[\[)|(!\[[^]]*\]\()' \
     "R1 禁嵌入图片：电子笔记中不得出现 ![[...]] 或 ![...](...)" \
     "电子笔记保持纯 Markdown；原图只放 docs/computer_notes_shot/<学科>/，不要在正文嵌入"
 
 # ================================================================
-# R2 禁绝对本地路径（CLAUDE.md §22）
+# R2 禁绝对本地路径（CLAUDE.md《禁止事项》）
 # ================================================================
 scan_rule '([A-Za-z]:[\\/])|(file://)|(/Users/[A-Za-z0-9._-]+/)|(/home/[A-Za-z0-9._-]+/)' \
     "R2 可移植性：文档中不得出现绝对本地路径" \
     "改用相对路径（如 docs/computer_notes_shot/数据结构/）"
 
 # ================================================================
-# R3 tags 不含 11408（CLAUDE.md §8.1）
+# R3 tags 不含 11408（CLAUDE.md《YAML Frontmatter》8.1）
 # ================================================================
 scan_rule '^[[:space:]]*-[[:space:]]*11408[[:space:]]*$' \
     "R3 Tag 约束：Obsidian tags 中不得出现 11408" \
     "11408 用 frontmatter 的 course: 11408 表达，不要放进 tags"
 
 # ================================================================
-# R4 文件名黑名单（CLAUDE.md §7.2）
+# R4 文件名黑名单（CLAUDE.md《文件命名规范》7.2）
 # ================================================================
 BAD_NAMES=""
 for f in "${FILES[@]}"; do
@@ -135,7 +140,9 @@ else
 fi
 
 # ================================================================
-# R5 正式笔记 frontmatter（CLAUDE.md §8）
+# R5 正式笔记 frontmatter（CLAUDE.md《YAML Frontmatter》）
+# 说明：bash 的 case 模式中 * 匹配 /，因此 computer/*.md 同时覆盖
+#       computer/<学科>/<笔记>.md，笔记下沉到学科目录后本规则不失效。
 # ================================================================
 FM_BAD=""
 for f in "${FILES[@]}"; do
@@ -165,12 +172,12 @@ if [ -z "$FM_BAD" ]; then
 else
     fail "R5 Frontmatter：正式笔记字段缺失"
     printf '%s' "$FM_BAD" | sed 's/^/       /'
-    echo "       → 参照 CLAUDE.md §8 补齐 type / subject / course / status / tags"
+    echo "       → 参照 CLAUDE.md《YAML Frontmatter》补齐 type / subject / course / status / tags"
     HAS_ERROR=1
 fi
 
 # ================================================================
-# R6 不得重复创建同义笔记（CLAUDE.md §19）
+# R6 不得重复创建同义笔记（CLAUDE.md《Agent 续写规则》）
 # 说明：README.md / index.md 是目录说明，不是双链目标，不参与重名判定
 # ================================================================
 DUP="$(for f in "${FILES[@]}"; do
@@ -189,7 +196,7 @@ else
 fi
 
 # ================================================================
-# R7 手写图不得落入电子笔记资源目录（CLAUDE.md §6.4）
+# R7 手写图不得落入电子笔记资源目录（CLAUDE.md《Obsidian 双链与源文件规范》6.4）
 # ================================================================
 if [ -d computer/assets ]; then
     IMG_HITS="$(find computer/assets -type f \( -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' -o -name '*.webp' -o -name '*.gif' \) 2>/dev/null)"
@@ -202,6 +209,31 @@ if [ -d computer/assets ]; then
     fi
 else
     pass "R7 资源目录：无 computer/assets/（符合规范）"
+fi
+
+# ================================================================
+# R8 学科 README 体量上限（CLAUDE.md《学科路由与规则真源》2.1）
+# 学科 README 只写状态与事实。超过上限即意味着流程规则被复制进来了，
+# 于是 CLAUDE.md 与学科 README 各有一份，改一处就会漂移。
+# ================================================================
+README_LIMIT=120
+OVER=""
+for f in computer/*/README.md; do
+    [ -f "$f" ] || continue
+    n="$(wc -l < "$f" | tr -d ' ')"
+    if [ "$n" -gt "$README_LIMIT" ]; then
+        OVER="${OVER}${f}: ${n} 行（上限 ${README_LIMIT}）
+"
+    fi
+done
+
+if [ -z "$OVER" ]; then
+    pass "R8 学科规则体量：每科 README 均在 ${README_LIMIT} 行以内"
+else
+    fail "R8 学科规则体量：学科 README 超过 ${README_LIMIT} 行"
+    printf '%s' "$OVER" | sed 's/^/       /'
+    echo "       → 学科 README 只写「教材口径 + 禁止提前扩写」；流程规范指回 CLAUDE.md"
+    HAS_ERROR=1
 fi
 
 echo ""

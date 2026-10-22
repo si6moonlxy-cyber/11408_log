@@ -38,8 +38,10 @@ jobs:
         run: bash scripts/doc-link-check.sh
 
   # ------------------------------------------------------------
-  # 知识库铁律（CLAUDE.md §6.4 / §7.2 / §8 / §8.1 / §19）
-  # 禁嵌入手写图、禁绝对路径、tags 不含 11408、命名与 frontmatter
+  # 知识库铁律（CLAUDE.md《Obsidian 双链与源文件规范》《文件命名规范》
+  # 《YAML Frontmatter》《Agent 续写规则》《学科路由与规则真源》）
+  # 禁嵌入手写图、禁绝对路径、tags 不含 11408、命名与 frontmatter、
+  # 学科 README 体量上限（R1–R8）
   # ------------------------------------------------------------
   guard:
     name: Guard — 知识库铁律

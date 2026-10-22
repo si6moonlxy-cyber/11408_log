@@ -3,12 +3,16 @@
 # doc-link-check.sh — 知识库链接可达性检查
 # ================================================================
 # 用法:   bash scripts/doc-link-check.sh
-# 退出码: 0 通过 / 1 存在死链
+# 退出码: 0 通过 / 1 存在死链或歧义链接
 #
-# 检查两类链接（均先剥离代码块与行内代码，避免把示例当链接）：
+# 检查三类链接（均先剥离代码块与行内代码，避免把示例当链接）：
 #   1. Markdown 相对链接 `](path)`  — 目标必须存在（硬门禁，失败即退出 1）
 #   2. Obsidian 双链 `[[目标]]`      — 目标应在库内可解析（仅告警，不阻断）
-#      理由：CLAUDE.md §16 允许「计划后续建立的页面」作为导航占位。
+#      理由：CLAUDE.md《内容升级规则》允许「计划后续建立的页面」作为导航占位。
+#   3. 歧义双链                      — 裸文件名双链命中多个同名文件（硬门禁）
+#      理由：CLAUDE.md《Obsidian 双链与源文件规范》6.1 —— Wikilink 只写
+#      basename，落点不确定等于错链；本库有多个 README.md，必须用相对
+#      路径 Markdown 链接指向具体文件。
 #
 # 跳过: http/https 外链、mailto / tel、纯锚点 `#...`、以 `://` 结尾的外部双链
 #
@@ -28,8 +32,10 @@ trap 'rm -rf "$WORK"' EXIT
 
 DEAD="$WORK/dead.txt"
 WARN="$WORK/warn.txt"
+AMB="$WORK/amb.txt"
 : > "$DEAD"
 : > "$WARN"
+: > "$AMB"
 
 echo "🔍 检查知识库链接..."
 
@@ -50,10 +56,13 @@ fi
 
 # ---------- 双链索引：完整路径去 .md + 纯文件名去 .md ----------
 declare -A INDEX=()
+declare -A BASE_COUNT=()
 for f in "${FILES[@]}"; do
     p="${f%.md}"
+    b="$(basename "$p")"
     INDEX["$p"]=1
-    INDEX["$(basename "$p")"]=1
+    INDEX["$b"]=1
+    BASE_COUNT["$b"]=$(( ${BASE_COUNT["$b"]:-0} + 1 ))
 done
 
 # ---------- 剥离代码（保留行号：代码行输出为空行而非删除） ----------
@@ -98,7 +107,7 @@ for file in "${FILES[@]}"; do
         fi
     done < <(grep -o -E '\]\([^)]*\)' "$clean" 2>/dev/null || true)
 
-    # ---- 2. Obsidian 双链（告警级）----
+    # ---- 2/3. Obsidian 双链（占位告警 / 歧义硬失败）----
     while IFS=$'\t' read -r lno raw; do
         test -z "$raw" && continue
         target="$raw"
@@ -109,6 +118,8 @@ for file in "${FILES[@]}"; do
 
         if [ -z "${INDEX[$target]:-}" ]; then
             echo "  MISS: $file:$lno -> [[$target]]" >> "$WARN"
+        elif [ "${BASE_COUNT[$target]:-0}" -gt 1 ]; then
+            echo "  AMB: $file:$lno -> [[$target]]（库内 ${BASE_COUNT[$target]} 个同名文件，落点不确定）" >> "$AMB"
         fi
     done < <(awk '{
         line = $0
@@ -123,12 +134,22 @@ done
 # ---------- 汇总 ----------
 DEAD_N=$(wc -l < "$DEAD" | tr -d ' ')
 WARN_N=$(wc -l < "$WARN" | tr -d ' ')
+AMB_N=$(wc -l < "$AMB" | tr -d ' ')
 
 if [ "$WARN_N" -gt 0 ]; then
     echo ""
     echo "⚠️  有 ${WARN_N} 个双链目标尚未建立（占位导航，不阻断）："
     sed 's/^/   /' "$WARN" | head -20
     [ "$WARN_N" -gt 20 ] && echo "   ...（其余 $((WARN_N - 20)) 条略）"
+fi
+
+if [ "$AMB_N" -gt 0 ]; then
+    echo ""
+    echo "❌ 发现 ${AMB_N} 个歧义双链（同名文件不止一个，Obsidian 落点不确定）："
+    sed 's/^/   /' "$AMB"
+    echo ""
+    echo "   处理: 改用相对路径 Markdown 链接指向具体文件（如 [数据结构规则](computer/数据结构/README.md)）"
+    exit 1
 fi
 
 if [ "$DEAD_N" -gt 0 ]; then

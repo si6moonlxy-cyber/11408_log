@@ -68,8 +68,8 @@ git config core.hooksPath .githooks
 
 | Job | 检查内容 | 失败含义 |
 |---|---|---|
-| `docs` | Markdown 相对链接全部可达；双链目标可解析 | 存在死链 |
-| `guard` | 知识库铁律：禁嵌入手写图、禁绝对本地路径、`tags` 不含 `11408`、命名与 frontmatter | 违反 `CLAUDE.md` 约定 |
+| `docs` | Markdown 相对链接全部可达；双链目标可解析；无歧义双链 | 存在死链或同名文件歧义链接 |
+| `guard` | 知识库铁律 R1–R8：禁嵌入手写图、禁绝对本地路径、`tags` 不含 `11408`、命名与 frontmatter、学科 README 体量上限 | 违反 `CLAUDE.md` 约定 |
 | `hygiene` | 编码 UTF-8 无 BOM、文本统一 LF、大文件限额、疑似密钥 | 仓库卫生不达标 |
 
 本地等价执行：
@@ -85,7 +85,7 @@ bash scripts/doc-link-check.sh   # 链接
 bash scripts/vault-guard.sh      # 知识库铁律
 ```
 
-约定说明：相对链接失效是**硬失败**；Obsidian 双链指向尚未建立的页面属于 `CLAUDE.md` §16 允许的导航占位，只输出告警不阻断。
+约定说明：相对链接失效是**硬失败**；Obsidian 双链指向尚未建立的页面属于 `CLAUDE.md`《内容升级规则》允许的导航占位，只输出告警不阻断；裸文件名双链命中多个同名文件（如本库的多个 `README.md`）属于**歧义双链**，硬失败。
 
 ## 仓库体积
 
