@@ -10,6 +10,7 @@
 | 按学科和资产类型路由 | [AGENT_API_GUIDE.md](AGENT_API_GUIDE.md) |
 | 摄入新一批手写图 | [INGEST-SOP.md](99_System/INGEST-SOP.md) |
 | 复习数据结构 Part 1 | [知识主干](04_408/01_Data_Structure/DS-P1-Knowledge.md) → [代码与习题过程](04_408/01_Data_Structure/DS-P1-Code-Exercises.md) |
+| 复习英语 | [词汇](02_English/01_Vocabulary/EN-Vocabulary.md) · [句法](02_English/02_Syntax/EN-Syntax.md) · [语境](02_English/05_Context_Boost/EN-Context-Boost.md) |
 | 查原图及处理状态 | [数据结构原图清单](00_Assets/screenshots/408/DS/manifest.md) |
 
 ## 目录契约
@@ -31,7 +32,7 @@
 └── README.md                  # 本入口
 ```
 
-英语、数学和政治考纲分支目前为空目录，仅为未来学习预留。数据结构现阶段仍保留两篇 Part 1 文档，按主题导航，章节稳定后再拆分。政治现有《中国通史》笔记属于 `00_Readings/`，不能当作史纲考点。
+英语词汇、句法、语境分支已收录本次材料；阅读和写作分支仍为空目录。数学和政治考纲分支仅为未来学习预留。数据结构现阶段仍保留两篇 Part 1 文档，按主题导航，章节稳定后再拆分。政治现有《中国通史》笔记属于 `00_Readings/`，不能当作史纲考点。
 
 ## 资料和证据
 

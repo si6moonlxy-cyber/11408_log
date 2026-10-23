@@ -49,10 +49,10 @@
 | 操作系统 | `OS` | `04_408/03_Operating_System/` | `00_Assets/screenshots/408/OS/` | `04_408/03_Operating_System/README.md` | 未初始化 |
 | 计算机网络 | `CN` | `04_408/04_Computer_Network/` | `00_Assets/screenshots/408/CN/` | `04_408/04_Computer_Network/README.md` | 未初始化 |
 | 数学（一） | `MATH` | `03_Math/` | `00_Assets/screenshots/math/` | 未建立 | 目录预建，笔记未初始化 |
-| 英语（一） | `EN` | `02_English/` | `00_Assets/screenshots/english/` | 未建立 | 目录预建，笔记未初始化 |
+| 英语（一） | `EN` | `02_English/` | `00_Assets/screenshots/english/` | `02_English/README.md` | 词汇、句法与语境已初始化；阅读、写作预留 |
 | 政治 | `POL` | `01_Politics/` | `00_Assets/texts/politics/`、`00_Assets/pdfs/politics/` | `01_Politics/README.md` | 阅读笔记已初始化；考纲目录预建 |
 
-> 英语、数学和政治考纲分支已按用户决策预建空目录。空目录只表达路由，不代表已学习或已核对教材；学科规则未建立前不新建具体笔记。政治 `00_Readings/` 是读书总结，四个考纲分支另立。
+> 英语的阅读、写作分支以及数学、政治考纲分支已按用户决策预建空目录。空目录只表达路由，不代表已学习或已核对教材；学科规则未建立前不新建具体笔记。政治 `00_Readings/` 是读书总结，四个考纲分支另立。
 
 ### 2.3 处理任何学习资料前的读取顺序
 
