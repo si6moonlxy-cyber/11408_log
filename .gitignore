@@ -13,17 +13,14 @@ desktop.ini
 .obsidian/
 .trash/
 
-# ---------- 手写图禁止落入电子笔记资源目录（CLAUDE.md §6.4） ----------
-computer/assets/
-
 # ---------- 本机 Agent 本地状态 ----------
 .dsh-memory/
 
 # ---------- 只供人工阅读的原始资料，不入库 ----------
-docs/politics_notes_shot/PDF/
+00_Assets/pdfs/politics/
 
 # ---------- 抓取回来的原始语料（仅本地追溯，不入库） ----------
-docs/_scrape/
+00_Assets/_scrape/
 
 # ---------- 依赖与构建产物（当前无代码，预留） ----------
 node_modules/

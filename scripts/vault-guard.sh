@@ -11,7 +11,7 @@
 #   R4  《文件命名规范》7.2               禁止「新建文档1.md」「最终版.md」这类文件名
 #   R5  《YAML Frontmatter》              正式笔记必须有 type / subject / course
 #   R6  《Agent 续写规则》                不得重复创建同义笔记（basename 唯一）
-#   R7  《Obsidian 双链与源文件规范》6.4  手写图不得落入 computer/assets/
+#   R7  《Obsidian 双链与源文件规范》6.4  原图不得落入任何学科正文目录
 #   R8  《学科路由与规则真源》2.1         学科 README 只写状态，不得复制流程规则
 #
 # 执行点（三处，本脚本是唯一真源）：
@@ -101,14 +101,15 @@ scan_rule() {
 # ================================================================
 scan_rule '(!\[\[)|(!\[[^]]*\]\()' \
     "R1 禁嵌入图片：电子笔记中不得出现 ![[...]] 或 ![...](...)" \
-    "电子笔记保持纯 Markdown；原图只放 docs/computer_notes_shot/<SUBJ>/，不要在正文嵌入"
+    "电子笔记保持纯 Markdown；原图只放 00_Assets/screenshots/，不要在正文嵌入"
 
 # ================================================================
 # R2 禁绝对本地路径（CLAUDE.md《禁止事项》）
+# 盘符前须是非字母或行首，避免把 https:// 的 s:/ 误认成 S 盘。
 # ================================================================
-scan_rule '([A-Za-z]:[\\/])|(file://)|(/Users/[A-Za-z0-9._-]+/)|(/home/[A-Za-z0-9._-]+/)' \
+scan_rule '(^|[^A-Za-z])([A-Za-z]:[\\/])|(file://)|(/Users/[A-Za-z0-9._-]+/)|(/home/[A-Za-z0-9._-]+/)' \
     "R2 可移植性：文档中不得出现绝对本地路径" \
-    "改用相对路径（如 docs/computer_notes_shot/DS/）"
+    "改用相对路径（如 00_Assets/screenshots/408/DS/）"
 
 # ================================================================
 # R3 tags 不含 11408（CLAUDE.md《YAML Frontmatter》8.1）
@@ -141,13 +142,12 @@ fi
 
 # ================================================================
 # R5 正式笔记 frontmatter（CLAUDE.md《YAML Frontmatter》）
-# 说明：bash 的 case 模式中 * 匹配 /，因此 computer/*.md 同时覆盖
-#       computer/<学科>/<笔记>.md，笔记下沉到学科目录后本规则不失效。
+# 说明：bash 的 case 模式中 * 匹配 /，覆盖四个学科域下的正式笔记。
 # ================================================================
 FM_BAD=""
 for f in "${FILES[@]}"; do
     case "$f" in
-        computer/*.md) ;;
+        01_Politics/*.md|02_English/*.md|03_Math/*.md|04_408/*.md) ;;
         *) continue ;;
     esac
     case "$(basename "$f")" in
@@ -196,19 +196,15 @@ else
 fi
 
 # ================================================================
-# R7 手写图不得落入电子笔记资源目录（CLAUDE.md《Obsidian 双链与源文件规范》6.4）
+# R7 原图不得落入电子笔记目录（CLAUDE.md《Obsidian 双链与源文件规范》6.4）
 # ================================================================
-if [ -d computer/assets ]; then
-    IMG_HITS="$(find computer/assets -type f \( -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' -o -name '*.webp' -o -name '*.gif' \) 2>/dev/null)"
-    if [ -n "$IMG_HITS" ]; then
-        fail "R7 资源目录：computer/assets/ 中存在手写图（应只放 docs/computer_notes_shot/）"
-        printf '%s\n' "$IMG_HITS" | head -5 | sed 's/^/       /'
-        HAS_ERROR=1
-    else
-        pass "R7 资源目录：computer/assets/ 无手写图"
-    fi
+IMG_HITS="$(find 01_Politics 02_English 03_Math 04_408 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' -o -iname '*.gif' \) 2>/dev/null)"
+if [ -n "$IMG_HITS" ]; then
+    fail "R7 学科正文目录中存在图片（应只放 00_Assets/screenshots/）"
+    printf '%s\n' "$IMG_HITS" | head -5 | sed 's/^/       /'
+    HAS_ERROR=1
 else
-    pass "R7 资源目录：无 computer/assets/（符合规范）"
+    pass "R7 学科正文目录中无图片"
 fi
 
 # ================================================================
@@ -218,7 +214,7 @@ fi
 # ================================================================
 README_LIMIT=120
 OVER=""
-for f in computer/*/README.md; do
+for f in 01_Politics/README.md 02_English/README.md 03_Math/README.md 04_408/*/README.md; do
     [ -f "$f" ] || continue
     n="$(wc -l < "$f" | tr -d ' ')"
     if [ "$n" -gt "$README_LIMIT" ]; then
