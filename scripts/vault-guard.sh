@@ -178,10 +178,14 @@ fi
 
 # ================================================================
 # R6 不得重复创建同义笔记（CLAUDE.md《Agent 续写规则》）
-# 说明：README.md / index.md 是目录说明，不是双链目标，不参与重名判定
+# 说明：README.md / index.md 是目录说明；原图目录的 manifest.md 是资料清单，
+# 均不是笔记双链目标，不参与重名判定。
 # ================================================================
 DUP="$(for f in "${FILES[@]}"; do
     base="$(basename "$f")"
+    case "$f" in
+        00_Assets/screenshots/*/manifest.md) continue ;;
+    esac
     case "$base" in
         README.md|index.md) continue ;;
     esac
