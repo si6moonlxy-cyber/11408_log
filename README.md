@@ -9,6 +9,7 @@
 | 读取全局规则 | [CLAUDE.md](CLAUDE.md) |
 | 按学科和资产类型路由 | [AGENT_API_GUIDE.md](AGENT_API_GUIDE.md) |
 | 摄入新一批手写图 | [INGEST-SOP.md](99_System/INGEST-SOP.md) |
+| 复习高数函数与极限 | [知识主干](03_Math/01_Calculus/MATH-P1-Knowledge.md) ↔ [解题推演](03_Math/01_Calculus/MATH-P1-Exercises.md)；新材料见 [高数原图清单](00_Assets/screenshots/math/calculus/manifest.md) 与 [数学学科规则](03_Math/README.md) |
 | 复习数据结构 Part 1 | [知识主干](04_408/01_Data_Structure/DS-P1-Knowledge.md) → [代码与习题过程](04_408/01_Data_Structure/DS-P1-Code-Exercises.md) |
 | 复习英语 | [词汇](02_English/01_Vocabulary/EN-Vocabulary.md) · [句法](02_English/02_Syntax/EN-Syntax.md) · [语境](02_English/05_Context_Boost/EN-Context-Boost.md) |
 | 查原图及处理状态 | [数据结构原图清单](00_Assets/screenshots/408/DS/manifest.md) |
@@ -19,6 +20,7 @@
 11408/
 ├── 00_Assets/                 # 原始资料：ZIP、文本、本地 PDF；不嵌入笔记
 │   ├── screenshots/408/DS/    # 两份原图 ZIP + manifest
+│   ├── screenshots/math/calculus/ # note.zip、craft.zip 与 manifest
 │   ├── texts/politics/        # 政治原典文本
 │   └── pdfs/politics/         # 仅本地，不入 Git
 ├── 01_Politics/               # 00_Readings 与四门考纲分轨
@@ -32,7 +34,7 @@
 └── README.md                  # 本入口
 ```
 
-英语词汇、句法、语境分支已收录本次材料；阅读和写作分支仍为空目录。数学和政治考纲分支仅为未来学习预留。数据结构现阶段仍保留两篇 Part 1 文档，按主题导航，章节稳定后再拆分。政治现有《中国通史》笔记属于 `00_Readings/`，不能当作史纲考点。
+英语词汇、句法、语境分支已收录材料；阅读和写作分支仍为空目录。高数的笔记、手稿 ZIP 已归档并登记，函数与极限 Part 1 已按知识主干和解题推演建立双文档；当前课程口径为武忠祥高数基础阶段，具体教材版次与讲次待确认。政治考纲分支仍为预留。数据结构现阶段仍保留两篇 Part 1 文档，按主题导航，章节稳定后再拆分。政治现有《中国通史》笔记属于 `00_Readings/`，不能当作史纲考点。
 
 ## 资料和证据
 

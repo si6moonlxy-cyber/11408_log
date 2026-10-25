@@ -78,7 +78,7 @@ C08 排序
 3. 哪些反复改动提示可能混淆的条件？
 4. 哪些结论有手稿支持，哪些只是 Agent 的推测或教材补充？
 
-最终章节使用知识主题，不使用“原始第 X 页”作为结构。页码映射留在原图清单中。
+最终章节使用知识主题，不使用“原始第 X 页”作为结构。页码映射留在对应原图目录的 `manifest.md` 中。
 
 ### Step 5｜形成学习总结并分流
 
@@ -116,7 +116,9 @@ C08 排序
 原始手写图片不进入电子笔记展示。统一从以下目录读取和追溯：
 
 ```text
-00_Assets/screenshots/408/<SUBJ>/
+00_Assets/screenshots/408/<SUBJ>/  # 408 各科
+00_Assets/screenshots/math/<branch>/  # 数学（一），高数用 calculus/
+00_Assets/screenshots/english/     # 英语（一）
 ```
 
 要求：
