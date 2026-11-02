@@ -1,5 +1,9 @@
 # Agent 路由指南
-# status=reserved 表示空目录，不能据此生成“已学内容”。写作规则见根目录 CLAUDE.md。
+# status=reserved 表示空目录，不能据此生成“已学内容”。全局规则见根目录 CLAUDE.md；笔记微观契约见 99_System/NOTE-SCHEMA.md。
+- path: "99_System/NOTE-SCHEMA.md"
+  desc: "笔记整理 Schema：按学科启用概念、证明、习题、代码等微观内容类型"
+  status: "active"
+  test_strategy: "写作或改写笔记前读取对应类型的必需信息与证据标准；按学科使用不同排版"
 - path: "00_Assets/screenshots/408/DS"
   desc: "数据结构原始手写资料：两份 ZIP 和清单，仅供追溯"
   status: "active"

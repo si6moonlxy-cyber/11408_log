@@ -7,6 +7,7 @@
 | 任务 | 入口 |
 |---|---|
 | 读取全局规则 | [CLAUDE.md](CLAUDE.md) |
+| 按内容类型整理或审读笔记 | [笔记整理 Schema](99_System/NOTE-SCHEMA.md) |
 | 按学科和资产类型路由 | [AGENT_API_GUIDE.md](AGENT_API_GUIDE.md) |
 | 摄入新一批手写图 | [INGEST-SOP.md](99_System/INGEST-SOP.md) |
 | 复习高数函数与极限 | [知识主干](03_Math/01_Calculus/MATH-P1-Knowledge.md) ↔ [解题推演](03_Math/01_Calculus/MATH-P1-Exercises.md)；新材料见 [高数原图清单](00_Assets/screenshots/math/calculus/manifest.md) 与 [数学学科规则](03_Math/README.md) |
@@ -27,7 +28,7 @@
 ├── 02_English/                # 词汇、句法、阅读、写作、语境复习
 ├── 03_Math/                   # 高数、线代、概率论
 ├── 04_408/                    # 数据结构、计组、操作系统、计算机网络
-├── 99_System/                # 摄入 SOP
+├── 99_System/                # 笔记整理 Schema 与摄入 SOP
 ├── scripts/                   # 本地及 CI 校验
 ├── AGENT_API_GUIDE.md         # 根目录 YAML 路由指南
 ├── CLAUDE.md                  # 全局规范唯一真源
