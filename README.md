@@ -11,7 +11,7 @@
 | 按内容类型整理或审读笔记 | [笔记整理 Schema](99_System/NOTE-SCHEMA.md) |
 | 按学科和资产类型路由 | [AGENT_API_GUIDE.md](AGENT_API_GUIDE.md) |
 | 摄入新一批手写图 | [INGEST-SOP.md](99_System/INGEST-SOP.md) |
-| 复习高数函数与极限 | [知识主干](03_Math/01_Calculus/MATH-P1-Knowledge.md) ↔ [解题推演](03_Math/01_Calculus/MATH-P1-Exercises.md)；新材料见 [高数原图清单](00_Assets/screenshots/math/calculus/manifest.md) 与 [数学学科规则](03_Math/README.md) |
+| 复习高数第一章：函数、极限、连续 | [知识主干](03_Math/01_Calculus/MATH-P1-Knowledge.md) ↔ [解题推演](03_Math/01_Calculus/MATH-P1-Exercises.md)；原图见 [高数原图清单](00_Assets/screenshots/math/CCS/manifest.md)，整理口径见 [数学学科规则](03_Math/README.md) |
 | 复习数据结构 Part 1 | [知识主干](04_408/01_Data_Structure/DS-P1-Knowledge.md) → [代码与习题过程](04_408/01_Data_Structure/DS-P1-Code-Exercises.md) |
 | 复习英语 | [词汇](02_English/01_Vocabulary/EN-Vocabulary.md) · [句法](02_English/02_Syntax/EN-Syntax.md) · [语境](02_English/05_Context_Boost/EN-Context-Boost.md) |
 | 查原图及处理状态 | [数据结构原图清单](00_Assets/screenshots/408/DS/manifest.md) |
@@ -22,7 +22,7 @@
 11408/
 ├── 00_Assets/                 # 原始资料：ZIP、文本、本地 PDF；不嵌入笔记
 │   ├── screenshots/408/DS/    # 两份原图 ZIP + manifest
-│   ├── screenshots/math/calculus/ # note.zip、craft.zip 与 manifest
+│   ├── screenshots/math/CCS/ # CCS-partN.zip、CCS-partN-draft.zip 与 manifest
 │   ├── texts/politics/        # 政治原典文本
 │   └── pdfs/politics/         # 仅本地，不入 Git
 ├── 01_Politics/               # 00_Readings 与四门考纲分轨
