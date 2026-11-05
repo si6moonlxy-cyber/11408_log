@@ -1,7 +1,7 @@
 ---
 type: working-note
-subject: 数学（一）
-course: 11408
+subject: 数学（二）
+course: 22408
 source: 个人函数与极限手稿及 DeepSeek 对话核对（待确认处另标）
 status: active
 part: 1

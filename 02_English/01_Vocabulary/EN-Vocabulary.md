@@ -1,7 +1,7 @@
 ---
 type: note
-subject: 英语（一）
-course: 11408
+subject: 英语（二）
+course: 22408
 source: 用户提供的英语整理草案；词典与词源资料核对
 status: active
 tags:

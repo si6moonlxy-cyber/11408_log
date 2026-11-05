@@ -1,7 +1,7 @@
 ---
 type: note
 subject: 数据结构
-course: 11408
+course: 22408
 source: 王道数据结构 + 个人课堂/刷题草稿
 status: active
 part: 1

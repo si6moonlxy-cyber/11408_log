@@ -7,7 +7,7 @@
 #
 #   R1  《Obsidian 双链与源文件规范》6.4  手写笔记图片不得嵌入电子笔记
 #   R2  《禁止事项》                      不得使用不可移植的绝对本地路径
-#   R3  《YAML Frontmatter》8.1           Obsidian tags 中不得出现 11408
+#   R3  《YAML Frontmatter》8.1           Obsidian tags 中不得出现考试组合代码
 #   R4  《文件命名规范》7.2               禁止「新建文档1.md」「最终版.md」这类文件名
 #   R5  《YAML Frontmatter》              正式笔记必须有 type / subject / course
 #   R6  《Agent 续写规则》                不得重复创建同义笔记（basename 唯一）
@@ -112,11 +112,11 @@ scan_rule '(^|[^A-Za-z])([A-Za-z]:[\\/])|(file://)|(/Users/[A-Za-z0-9._-]+/)|(/h
     "改用相对路径（如 00_Assets/screenshots/408/DS/）"
 
 # ================================================================
-# R3 tags 不含 11408（CLAUDE.md《YAML Frontmatter》8.1）
+# R3 tags 不含旧或当前考试组合代码（CLAUDE.md《YAML Frontmatter》8.1）
 # ================================================================
-scan_rule '^[[:space:]]*-[[:space:]]*11408[[:space:]]*$' \
-    "R3 Tag 约束：Obsidian tags 中不得出现 11408" \
-    "11408 用 frontmatter 的 course: 11408 表达，不要放进 tags"
+scan_rule '^[[:space:]]*-[[:space:]]*(11408|22408)[[:space:]]*$' \
+    "R3 Tag 约束：Obsidian tags 中不得出现考试组合代码" \
+    "当前组合用 frontmatter 的 course: 22408 表达，不要放进 tags"
 
 # ================================================================
 # R4 文件名黑名单（CLAUDE.md《文件命名规范》7.2）

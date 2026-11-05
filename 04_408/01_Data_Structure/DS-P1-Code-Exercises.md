@@ -1,7 +1,7 @@
 ---
 type: working-note
 subject: 数据结构
-course: 11408
+course: 22408
 source: 个人手稿归纳（待确认处另标）
 status: active
 part: 1

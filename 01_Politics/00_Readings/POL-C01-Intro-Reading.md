@@ -1,9 +1,9 @@
 ---
 type: note
 subject: 政治
-course: 11408
+course: 22408
 source: 吕思勉《中国通史》第一编 绪论 + 个人读书总结（含 web 端学习教练复盘）
-status: active
+status: archived
 tags:
   - 政治
   - 中国通史

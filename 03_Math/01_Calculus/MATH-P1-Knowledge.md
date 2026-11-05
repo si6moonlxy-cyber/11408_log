@@ -1,7 +1,7 @@
 ---
 type: note
-subject: 数学（一）
-course: 11408
+subject: 数学（二）
+course: 22408
 source: 武忠祥高数基础阶段 + 个人函数与极限笔记
 status: active
 part: 1
