@@ -117,8 +117,8 @@ C08 排序
 
 ```text
 00_Assets/screenshots/408/<SUBJ>/  # 408 各科
-00_Assets/screenshots/math/<branch>/  # 数学（一），高数用 calculus/
-00_Assets/screenshots/english/     # 英语（一）
+00_Assets/screenshots/math/<branch>/  # 数学（二），高数用 calculus/
+00_Assets/screenshots/english/     # 英语（二）
 ```
 
 要求：

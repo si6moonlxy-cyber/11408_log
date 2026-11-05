@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-## 11408 Obsidian 学习总结与知识库维护 SOP
+## Obsidian 学习总结与知识库维护 SOP
 
 > **本文件是跨学科原则的唯一真源。** 笔记内部各内容类型的必需信息与表达标准，只在 [`99_System/NOTE-SCHEMA.md`](99_System/NOTE-SCHEMA.md) 维护。
 > 各学科的教材口径与禁止扩写范围写在路由表指定的学科 `README.md`，路由见第 2 节。
@@ -9,7 +9,7 @@
 
 ### 1. 项目目标
 
-本项目用于将 11408 备考过程中的：
+本项目用于将备考过程中的：
 
 - 手写课堂笔记
 - 学习同步草稿
@@ -21,6 +21,8 @@
 把手稿作为原始思考材料，提炼其中的学习问题、推导、算法理解、题型规律和待确认点，持续维护为可在 **Obsidian** 中长期检索、双链、复习，并可由后续 Agent 继续扩展的 Markdown 知识库。逐页识别或 OCR 只服务于理解与追溯，不是最终交付形式。
 
 笔记正文按 `01_Politics/`、`02_English/`、`03_Math/`、`04_408/` 分域存放；原始资料单独存放于 `00_Assets/`，不属于 Obsidian 正文知识库。完整目录与各科路由见第 2 节。
+
+当前考试目标与阶段计划以根目录 [`STUDY_PLAN.md`](STUDY_PLAN.md) 为准：2027 年 12 月初试、报考 2028 级中科大软件学院常规班，按政治、英语（二）、数学（二）、408 备考。`11408/` 是历史仓库名，不据此推断当前考试组合；当年招生目录与大纲更新后，先核对目标再调整计划和范围。
 
 > 如果用户后续沿用其他目录名称，以现有 Vault 实际结构为准，不要擅自批量改名。
 
@@ -49,8 +51,8 @@
 | 计算机组成原理 | `CO` | `04_408/02_Computer_Organization/` | `00_Assets/screenshots/408/CO/` | `04_408/02_Computer_Organization/README.md` | 未初始化 |
 | 操作系统 | `OS` | `04_408/03_Operating_System/` | `00_Assets/screenshots/408/OS/` | `04_408/03_Operating_System/README.md` | 未初始化 |
 | 计算机网络 | `CN` | `04_408/04_Computer_Network/` | `00_Assets/screenshots/408/CN/` | `04_408/04_Computer_Network/README.md` | 未初始化 |
-| 数学（一） | `MATH` | `03_Math/` | `00_Assets/screenshots/math/<branch>/`（高数：`calculus/`） | `03_Math/README.md` | 高数函数与极限 Part 1 双文档已建立 |
-| 英语（一） | `EN` | `02_English/` | `00_Assets/screenshots/english/` | `02_English/README.md` | 词汇、句法与语境已初始化；阅读、写作预留 |
+| 数学（二） | `MATH` | `03_Math/` | `00_Assets/screenshots/math/<branch>/`（高数：`calculus/`） | `03_Math/README.md` | 高数函数与极限 Part 1 双文档已建立；旧资料尚未逐项按数二核对 |
+| 英语（二） | `EN` | `02_English/` | `00_Assets/screenshots/english/` | `02_English/README.md` | 词汇、句法与语境已初始化；阅读、写作预留 |
 | 政治 | `POL` | `01_Politics/` | `00_Assets/texts/politics/`、`00_Assets/pdfs/politics/` | `01_Politics/README.md` | 阅读笔记已初始化；考纲目录预建 |
 
 > 英语的阅读、写作分支以及数学、政治考纲分支已按用户决策预建空目录。空目录只表达路由，不代表已学习或已核对教材；学科规则未建立前不新建具体笔记。政治 `00_Readings/` 是读书总结，四个考纲分支另立。
@@ -160,7 +162,7 @@
 - 习题过程中的规律、仍有涂改疑点的推导、可能混淆点和待确认问题
 - 尚未达到主干升级条件的理解；必须标清不确定性
 
-数学（一）高数将 B 类文档称为「解题推演」。已确认的定义与结论放进知识主干；证明、例题和涂改疑点放进解题推演。两篇必须相互链接；同主题后续材料续写现有双文档，不因新增原图 ZIP 重复建同主题笔记。命名见《文件命名规范》，内容升级见《内容升级规则》。
+数学（二）高数将 B 类文档称为「解题推演」。已确认的定义与结论放进知识主干；证明、例题和涂改疑点放进解题推演。两篇必须相互链接；同主题后续材料续写现有双文档，不因新增原图 ZIP 重复建同主题笔记。命名见《文件命名规范》，内容升级见《内容升级规则》。
 
 具体到每条概念、证明、例题、代码与错题怎样写，见 [`99_System/NOTE-SCHEMA.md`](99_System/NOTE-SCHEMA.md)；它规定必需信息，允许学科采用不同排版。
 
@@ -315,7 +317,7 @@ DS-C06-Graph-CheatSheet.md
 ---
 type: note
 subject: 数据结构
-course: 11408
+course: 22408
 source: 王道数据结构 + 个人笔记
 status: active
 tags:
@@ -330,7 +332,7 @@ tags:
 ---
 type: working-note
 subject: 数据结构
-course: 11408
+course: 22408
 source: 个人手稿归纳（待确认处另标）
 status: active
 tags:
@@ -376,7 +378,7 @@ tags:
   - 习题
 ```
 
-`course: 11408` 可以继续保留，用于标记考试体系；但 `11408` 不作为 Obsidian Tag 使用。
+新笔记用 `course: 22408` 标记当前考试组合；已有 `course: 11408` 表示旧备考目标，若内容继续用于当前目标，须先核对适用范围再调整元数据。考试组合代码不作为 Obsidian Tag 使用。
 
 ---
 
