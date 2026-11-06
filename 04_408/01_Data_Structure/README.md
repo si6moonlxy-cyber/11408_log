@@ -18,7 +18,3 @@
 - 排序（C08）
 
 双链占位（`[[DS-C07-Search]]`、`[[DS-C08-Sort]]`）保留即可，不要为了消掉告警而建空页面。
-
-## 现有笔记与进度
-
-不在此手工维护：笔记由 frontmatter 的 `subject: 数据结构` 推导；手稿进度见 [`manifest.md`](../../00_Assets/screenshots/408/DS/manifest.md) 的「本轮归类」列。
