@@ -42,4 +42,4 @@ aliases:
 - 词义与辨析：[Cambridge consequence](https://dictionary.cambridge.org/dictionary/english/consequence)、[confidential](https://dictionary.cambridge.org/dictionary/english/confidential)、[considerable](https://dictionary.cambridge.org/dictionary/english/considerable)、[contemptuous](https://dictionary.cambridge.org/dictionary/english/contemptuous)、[contemptible](https://dictionary.cambridge.org/dictionary/english/contemptible)。
 - 词源：[Oxford considerable](https://www.oxfordlearnersdictionaries.com/definition/english/considerable)、[Etymonline precise](https://www.etymonline.com/word/precise)、[contempt](https://www.etymonline.com/word/contempt)、[preach](https://www.etymonline.com/word/preach)、[receipt](https://www.etymonline.com/word/receipt)、[emerge](https://www.etymonline.com/word/emerge)。
 
-下一轮可从本页选词生成语境练习，模板见 [[EN-Context-Boost]]；生成例句须再次核对搭配。
+当前可从本页选词练长难句，例句与逐句解析见 [[EN-Syntax]]；后续长文模板见 [[EN-Templates-Reading]]。生成例句须再次核对搭配。

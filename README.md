@@ -13,7 +13,7 @@
 | 摄入新一批手写图 | [INGEST-SOP.md](99_System/INGEST-SOP.md) |
 | 复习高数第一章：函数、极限、连续 | [知识主干](03_Math/01_Calculus/MATH-P1-Knowledge.md) ↔ [解题推演](03_Math/01_Calculus/MATH-P1-Exercises.md)；原图见 [高数原图清单](00_Assets/screenshots/math/CCS/manifest.md)，整理口径见 [数学学科规则](03_Math/README.md) |
 | 复习数据结构 Part 1 | [知识主干](04_408/01_Data_Structure/DS-P1-Knowledge.md) → [代码与习题过程](04_408/01_Data_Structure/DS-P1-Code-Exercises.md) |
-| 复习英语 | [词汇](02_English/01_Vocabulary/EN-Vocabulary.md) · [句法](02_English/02_Syntax/EN-Syntax.md) · [语境](02_English/05_Context_Boost/EN-Context-Boost.md) |
+| 复习英语 | [词汇](02_English/01_Vocabulary/EN-Vocabulary.md) · [长难句与句法](02_English/02_Syntax/EN-Syntax.md) · [发音](02_English/05_Context_Boost/EN-Context-Boost.md) · [后续阅读模板](02_English/03_Reading/EN-Templates-Reading.md) |
 | 查原图及处理状态 | [数据结构原图清单](00_Assets/screenshots/408/DS/manifest.md) |
 
 ## 目录契约
@@ -37,7 +37,7 @@
 └── README.md                  # 本入口
 ```
 
-英语词汇、句法、语境分支已收录材料；阅读和写作分支仍为空目录。高数的笔记、手稿 ZIP 已归档并登记，函数与极限 Part 1 已按知识主干和解题推演建立双文档；当前课程口径为武忠祥高数基础阶段，具体教材版次与讲次待确认。政治目录封存至 2027 年 7 月，考纲分支仍为预留；现有《中国通史》笔记属于 `00_Readings/`，不能当作史纲考点。数据结构现阶段仍保留两篇 Part 1 文档，按主题导航，章节稳定后再拆分。
+英语词汇、长难句与发音分支已收录材料；阅读分支仅有待启用模板，写作分支仍为空目录。高数的笔记、手稿 ZIP 已归档并登记，第一章函数、极限、连续统一整理在 Part 1 知识主干与解题推演中；ZIP 的 `partN` 只表示上传批次，不决定电子笔记分卷。当前课程口径为武忠祥高数基础阶段，具体教材版次与讲次待确认。政治目录封存至 2027 年 7 月，考纲分支仍为预留；现有《中国通史》笔记属于 `00_Readings/`，不能当作史纲考点。数据结构现阶段仍保留两篇 Part 1 文档，按主题导航，章节稳定后再拆分。
 
 ## 资料和证据
 
