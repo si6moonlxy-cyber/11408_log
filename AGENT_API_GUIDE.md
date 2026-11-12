@@ -78,7 +78,7 @@
   desc: "数学二高数复习入口：武忠祥高数基础阶段，第一章函数、极限、连续在 P1 双文档，第二章导数与微分在 P2 双文档；原始 ZIP 批次不决定笔记分卷；尚未完成数学二范围核对"
   status: "active"
   note: "MATH-P1-Knowledge.md; MATH-P1-Exercises.md; MATH-P2-Knowledge.md; MATH-P2-Exercises.md"
-  test_strategy: "先按知识主干复盘定义与条件，再按对应解题推演追问题设与关键步骤；待确认题式不作为标准答案"
+  test_strategy: "先按知识主干复盘定义与条件，再按对应解题推演追问题设与关键步骤；未澄清的题式先在聊天中提问，不写成标准答案"
 - path: "03_Math/02_Linear_Algebra"
   desc: "数学二：线性代数"
   status: "reserved"
