@@ -1,6 +1,6 @@
-# 高数第一章原图清单：函数、极限、连续
+# 高数原图清单：第一章函数、极限、连续；第二章导数与微分
 
-本目录存放高数手写笔记与草稿 ZIP，仅用于原始资料回查，不属于 Obsidian 正文笔记。`part1`、`part2` 是原始资料的两次上传编号；第一章函数、极限、连续统一整理进现有的高数 Part 1 双文档。
+本目录存放高数手写笔记与草稿 ZIP，仅用于原始资料回查，不属于 Obsidian 正文笔记。ZIP 的 `partN` 是原始资料上传批次，不等于电子笔记的 P 编号：批次 1、2 对应第一章 P1 双文档；批次 3 对应第二章 P2 双文档。
 
 ## 归档与核对
 
@@ -8,7 +8,9 @@
 - `CCS-part1-draft.zip`：草稿，6 张 JPG，原文件名序号 146–151。
 - `CCS-part2.zip`：笔记，7 张 JPG，原文件名序号 157–163。
 - `CCS-part2-draft.zip`：草稿，18 张 JPG，原文件名序号 164–181。
-- 四份 ZIP 均通过完整性检查；共 37 张图片，按文件内容哈希检查没有完全重复。Part 1 两份 ZIP 与原 `calculus/` 目录中的文件逐字节一致，本次只改目录和名称。
+- `CCS-part3.zip`：第二章笔记，6 张 JPG，原文件名序号 44–49。
+- `CCS-part3-draft.zip`：第二章草稿，12 张 JPG，原文件名序号 50–61。
+- 六份 ZIP 共 55 张图片。本批两份 ZIP 通过完整性检查，本批 18 张按文件内容哈希检查没有完全重复。前两批 37 张的完整性与去重结果沿用此前登记。
 - 下表按原文件名序号排列；ZIP 内存放顺序可能不同。归类表示已提取可辨主题，不代表每道涂改题都已核实。
 
 ## 条目清单
@@ -52,5 +54,23 @@
 | CCS-part2-draft.zip | 179 | Weixin Image_20261105205932_179_25.jpg | 两道含对数与绝对值的间断点题 → 推演；对话中教练曾读错原式 |
 | CCS-part2-draft.zip | 180 | Weixin Image_20261105205932_180_25.jpg | 间断点判定与数列极限定义函数 → 推演；下半页涂改待核 |
 | CCS-part2-draft.zip | 181 | Weixin Image_20261105205932_181_25.jpg | 数列极限定义函数、闭区间连续函数证明 → 推演；用户对前题自述做错 |
+| CCS-part3.zip | 44 | Weixin Image_20261112154030_44_1.jpg | 第二章入口；导数、左右导数、微分定义 → P2 主干 |
+| CCS-part3.zip | 45 | Weixin Image_20261112154030_45_1.jpg | 可导、可微、连续关系与切线几何 → P2 主干；证明 → 推演 |
+| CCS-part3.zip | 46 | Weixin Image_20261112154030_46_1.jpg | 初等函数公式、求导法则、隐函数 → P2 主干 |
+| CCS-part3.zip | 47 | Weixin Image_20261112154030_47_1.jpg | 反函数、参数方程、对数求导、高阶导数 → P2 主干 |
+| CCS-part3.zip | 48 | Weixin Image_20261112154030_48_1.jpg | 莱布尼茨公式、差商辨析与例题 → P2 主干、推演 |
+| CCS-part3.zip | 49 | Weixin Image_20261112154030_49_1.jpg | 第二章总结页 → P2 主题导航，不重复立题 |
+| CCS-part3-draft.zip | 50 | Weixin Image_20261112154042_50_1.jpg | 分段点可导性对比、抽象函数平移求导 → P2 推演 |
+| CCS-part3-draft.zip | 51 | Weixin Image_20261112154042_51_1.jpg | 抽象函数求导；可导而导函数不连续 → P2 推演 |
+| CCS-part3-draft.zip | 52 | Weixin Image_20261112154042_52_1.jpg | 二阶导数与局部展开极限 → P2 推演 |
+| CCS-part3-draft.zip | 53 | Weixin Image_20261112154042_53_1.jpg | 隐函数与反三角函数求导 → P2 推演 |
+| CCS-part3-draft.zip | 54 | Weixin Image_20261112154042_54_1.jpg | 参数方程二阶导数，$t=1$ → P2 推演 |
+| CCS-part3-draft.zip | 55 | Weixin Image_20261112154042_55_1.jpg | 对数求导与微分，定义域条件 → P2 推演 |
+| CCS-part3-draft.zip | 56 | Weixin Image_20261112154042_56_1.jpg | 抽象差商与复合增量极限 → P2 推演 |
+| CCS-part3-draft.zip | 57 | Weixin Image_20261112154042_57_1.jpg | $\cos\sqrt{|x|}$ 的左右导数 → P2 推演 |
+| CCS-part3-draft.zip | 58 | Weixin Image_20261112154042_58_1.jpg | 隐函数二阶导数，$(1,1)$ → P2 推演 |
+| CCS-part3-draft.zip | 59 | Weixin Image_20261112154042_59_1.jpg | 参数方程约分复盘；莱布尼茨公式 → P2 推演 |
+| CCS-part3-draft.zip | 60 | Weixin Image_20261112154042_60_1.jpg | 隐函数切线、$y^2=x$ 分支与曲率 → P2 推演 |
+| CCS-part3-draft.zip | 61 | Weixin Image_20261112154042_61_1.jpg | 原点曲率及曲率半径试算 → P2 推演；点值公式适用性已复核 |
 
-正文归纳：[[MATH-P1-Knowledge]]、[[MATH-P1-Exercises]]。第一章内容均续写这两篇；导数与微分才进入下一组双文档。DeepSeek 对话只作题设和自述核对，不保存原始对话或附件到本目录。
+正文归纳：第一章 [[MATH-P1-Knowledge]]、[[MATH-P1-Exercises]]；第二章 [[MATH-P2-Knowledge]]、[[MATH-P2-Exercises]]。同章后续批次续写对应双文档。DeepSeek 对话只作题设和自述核对，不保存原始对话或附件到本目录。

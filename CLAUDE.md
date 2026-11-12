@@ -51,7 +51,7 @@
 | 计算机组成原理 | `CO` | `04_408/02_Computer_Organization/` | `00_Assets/screenshots/408/CO/` | `04_408/02_Computer_Organization/README.md` | 未初始化 |
 | 操作系统 | `OS` | `04_408/03_Operating_System/` | `00_Assets/screenshots/408/OS/` | `04_408/03_Operating_System/README.md` | 未初始化 |
 | 计算机网络 | `CN` | `04_408/04_Computer_Network/` | `00_Assets/screenshots/408/CN/` | `04_408/04_Computer_Network/README.md` | 未初始化 |
-| 数学（二） | `MATH` | `03_Math/` | `00_Assets/screenshots/math/<branch>/`（高数：`CCS/`） | `03_Math/README.md` | 高数 Part 1 函数、极限、连续双文档已建立；旧资料尚未逐项按数二核对 |
+| 数学（二） | `MATH` | `03_Math/` | `00_Assets/screenshots/math/<branch>/`（高数：`CCS/`） | `03_Math/README.md` | 高数 P1 函数、极限、连续与 P2 导数、微分双文档已建立；旧资料尚未逐项按数二核对 |
 | 英语（二） | `EN` | `02_English/` | `00_Assets/screenshots/english/` | `02_English/README.md` | 词汇、句法与发音已初始化；阅读仅有待启用模板，写作预留 |
 | 政治 | `POL` | `01_Politics/` | `00_Assets/texts/politics/`、`00_Assets/pdfs/politics/` | `01_Politics/README.md` | 阅读笔记已初始化；考纲目录预建 |
 
@@ -162,7 +162,7 @@
 - 习题过程中的规律、仍有涂改疑点的推导、可能混淆点和待确认问题
 - 尚未达到主干升级条件的理解；必须标清不确定性
 
-数学（二）高数将 B 类文档称为「解题推演」。已确认的定义与结论放进知识主干；证明、例题和涂改疑点放进解题推演。两篇必须相互链接。原始 ZIP 的 `partN` 是上传批次，电子笔记的 `P<N>` 是按上传笔记实际章节、标题与内容确定的主题分卷，两套编号不要求相同；先核对原图和已有同主题文档，再决定续写或新建。当前第一章函数、极限、连续统一续写现有 Part 1 双文档；后续上传资料实际进入导数与微分时，再开下一组双文档。命名见《文件命名规范》，内容升级见《内容升级规则》。
+数学（二）高数将 B 类文档称为「解题推演」。已确认的定义与结论放进知识主干；证明、例题和涂改疑点放进解题推演。两篇必须相互链接。原始 ZIP 的 `partN` 是上传批次，电子笔记的 `P<N>` 是按上传笔记实际章节、标题与内容确定的主题分卷，两套编号不要求相同；先核对原图和已有同主题文档，再决定续写或新建。当前第一章函数、极限、连续续写 P1 双文档；第二章导数与微分续写 P2 双文档。命名见《文件命名规范》，内容升级见《内容升级规则》。
 
 具体到每条概念、证明、例题、代码与错题怎样写，见 [`99_System/NOTE-SCHEMA.md`](99_System/NOTE-SCHEMA.md)；它规定必需信息，允许学科采用不同排版。
 
