@@ -118,3 +118,128 @@ aliases:
 这两句显示：只摘主题名词可以帮助确定话题，却不足以保证读懂谓语、否定、让步、从句和结果关系；不能据此估算整体阅读正确率。当前阶段先练长难句，读懂主干为最低标准；修饰语影响句意时再拆。后续长文与真题放在 `03_Reading/`，每篇原文与自己的解析相邻，不把多篇原文和多篇解析分开堆放。
 
 语法与词义核对：[Cambridge：in spite of and despite](https://dictionary.cambridge.org/grammar/british-grammar/in-spite-of-and-despite)、[passive forms](https://dictionary.cambridge.org/grammar/british-grammar/passive-forms)、[objects](https://dictionary.cambridge.org/grammar/british-grammar/objects)、[resort to](https://dictionary.cambridge.org/dictionary/english/resort-to)。
+
+## 长难句练习：DeepSeek 对话续录（2026-11-12 核对）
+
+来源：[DeepSeek 分享对话](https://chat.deepseek.com/share/731axu4gbsr9gzzgd1)。该对话共有 81 轮用户消息；上文的“监控与企业资金”两句也在其中，已记录，此处只追加另外 8 句。前 2 句是生成的演示句，后 6 句包括用户实际作答的练习。均为 **DeepSeek 生成材料，不是真题**。下列“原句”保留生成时的语法和措辞；其问题在对应句下标明，不把 DeepSeek 的批改分数当成学习成绩。
+
+### 句 1：数字战略与长期成本（演示句）
+
+**原句**
+
+> While companies often anticipate short-term profits when they implement new digital strategies, the dominant narrative in the industry suggests that failing to investigate the long-term maintenance costs may lead to expired competitive advantages.
+
+**主干与修饰**
+
+- 主句是 `the dominant narrative in the industry suggests that ...`：`narrative` 是主语中心词，`suggests` 是谓语，`that` 引出宾语从句。原对话把宾语从句内部的 `failing ... may lead to ...` 称为全句主干，漏了外层主句。
+- `While companies ...` 表让步或对比；其中 `when they implement ...` 是时间从句。宾语从句里，`failing to investigate the long-term maintenance costs` 是主语，`may lead to` 是谓语部分。
+
+**译文**：虽然公司实施新的数字战略时往往期待短期利润，但业内一种主流观点认为，若未调查长期维护成本，竞争优势可能逐渐丧失。
+
+**表达校对**：原句的 `expired competitive advantages` 不够自然；若表达“优势逐渐丧失”，可用 `eroded competitive advantages`。这是改写建议，不是原句。
+
+### 句 2：研究数据与算法（演示句）
+
+**原句**
+
+> It is highly recommended that researchers carefully investigate the underlying data before they implement algorithms that are designed to anticipate consumer behavior, as an inaccurate narrative could quickly expire in a volatile market.
+
+**主干与修饰**
+
+- `It is highly recommended that ...` 中 `it` 是形式主语，`that` 从句说明被建议的内容。该从句的主干是 `researchers investigate the underlying data`。
+- `before they implement algorithms` 是时间从句；`that are designed to anticipate consumer behavior` 修饰 `algorithms`；`as ...` 引出原因或解释。
+
+**译文**：强烈建议研究人员在实施旨在预测消费者行为的算法之前，仔细调查底层数据，因为在动荡的市场中，不准确的叙事可能很快失去可信度。
+
+**表达校对**：`narrative could quickly expire` 搭配生硬；`could quickly lose credibility` 更符合这里的意思。后半句与前半句的因果联系也较弱，不宜当作规范范文。
+
+### 句 3：AI 政策实施失败
+
+**原句**
+
+> The implementation of new AI policies by the company has failed, as the managers completely ignored the negative feedback from their colleagues.
+
+**主干与修饰**
+
+- 主句主语中心词是 `implementation`，谓语是 `has failed`；主句没有宾语。`of new AI policies` 和 `by the company` 都修饰 `implementation`。
+- `as the managers completely ignored ...` 是原因状语从句，其谓语 `ignored` 不能与主句的 `has failed` 并列当作同一层级的谓语。
+
+**译文**：这家公司实施新 AI 政策的工作失败了，因为管理者完全忽视了同事的负面反馈。
+
+**本次作答复盘**：你认出了 `implementation`，也抓到了“管理者忽视负面反馈”的意思；下一步先用 `has failed` 确定主句，再把 `as ... ignored ...` 放回原因从句。`colleagues` 在此是“同事”。
+
+### 句 4：隐私法规与处罚
+
+**原句**
+
+> Although the Constitution has stipulated that privacy should be protected, the ambiguous regulations often incur severe penalties for tech companies, which heavily frustrates their innovation.
+
+**主干与修饰**
+
+- `Although ...` 引出让步状语从句；从句里的 `that privacy should be protected` 是 `stipulated` 后的宾语从句。
+- 主句的形式主干是 `the ambiguous regulations often incur severe penalties`。句末 `which` 的指代不清：若指前面整件事，`frustrates` 用单数可成立；若指复数 `regulations`，则应为 `frustrate`。
+
+**按原句译文**：尽管宪法规定隐私应受保护，模糊的法规却常使科技公司面临严厉处罚，而这严重阻碍了它们的创新。
+
+**本次作答复盘与原句问题**：你找对了 `regulations` 和 `incur`，但把 `incur severe penalties` 的处罚关系读成了公司利用漏洞。英语里通常是**公司** `incur penalties`（招致处罚），法规 `impose penalties`（施加处罚）；原句把 `regulations` 与 `incur` 搭配，不够自然。可改为 `tech companies often incur severe penalties under ambiguous regulations`，与原句分开理解。
+
+### 句 5：利率与临时救援计划
+
+**原句**
+
+> On the premise that lower interest rates stimulates consumption, the central bank launched a temporary rescue plan, while some analysts confess that the long-term effects remain uncertain.
+
+**主干与修饰**
+
+- `On the premise that ...` 表“在……的前提下”，不是主句；主句是 `the central bank launched a temporary rescue plan`。`launched` 是谓语，`a temporary rescue plan` 是宾语。
+- `while some analysts confess ...` 增加对比或同时发生的情况；其中 `that the long-term effects remain uncertain` 是 `confess` 后的宾语从句。
+
+**译文**：在较低利率能刺激消费这一前提下，中央银行推出了一项临时救援计划；但一些分析师承认，其长期影响仍不确定。
+
+**本次作答复盘与原句问题**：你认出了 `the central bank`，但把 `rescue plan` 当作谓语；应回看它前面的动词 `launched`。`interest rates` 是“利率”，`analysts` 是“分析师”。原句主语 `lower interest rates` 为复数，谓语应为 `stimulate`；这里 `confess` 用 `acknowledge` 更自然。
+
+### 句 6：多余法规与内部冲突
+
+**原句**
+
+> While the corporate council attempts to trigger a new strategy to achieve the optimum surplus, the superfluous regulations they recently implemented may spur internal conflicts, forcing managers to exploit their respective resources to ensure profits will suffice.
+
+**主干与修饰**
+
+- `While the corporate council attempts ...` 是让步或对比从句。你抓到的 `council ... trigger ... strategy` 属于这一层；全句主句是 `the superfluous regulations ... may spur internal conflicts`。
+- `they recently implemented` 是省略关系代词的定语从句，修饰 `regulations`；`forcing managers ...` 表示前述冲突带来的结果；`to ensure profits will suffice` 表目的，其内部主谓是 `profits will suffice`。
+
+**译文**：虽然公司委员会试图启动新战略，以实现最理想的盈余，但他们最近实施的多余法规可能引发内部冲突，迫使管理者利用各自的资源，确保利润足够。
+
+**本次作答复盘**：你识别了 `while`，也读出委员会启动战略这一层；要再跨过逗号找主句的 `regulations may spur conflicts`。`superfluous` 是“多余的”，`suffice` 是“足够”；原句没有说明利润足够满足什么，译文不补出对象。
+
+### 句 7：欺诈调查与高管声誉
+
+**原句**
+
+> A shocking revelation regarding the financial fraud has identified the real culprit, which severely damaged the professional repute of the executives whose occupation requires absolute integrity; consequently, they had to swear to reform.
+
+**主干与修饰**
+
+- 分号前的主干是 `A shocking revelation has identified the real culprit`；`regarding the financial fraud` 修饰 `revelation`，`has identified` 才是谓语。
+- `which severely damaged ...` 补充说明前一事实或 `revelation`，指代不够清晰；`whose occupation requires absolute integrity` 修饰 `executives`。分号后另起一个分句：`they had to swear to reform`；`consequently` 表结果。
+
+**译文**：一项关于金融欺诈的惊人揭露确认了真正的责任人；这严重损害了那些职业要求绝对正直的高管的职业声誉。因此，他们不得不发誓作出改革。
+
+**本次作答复盘与原句问题**：你认出了 `which`、`whose` 和 `consequently`，也抓到了“揭露罪魁祸首、声誉受损”的大意；主干仍要补上 `has identified`。`has identified` 与 `which ... damaged` 的时态衔接、`which` 的指代以及 `swear to reform` 改革什么，都不够清楚，阅读时不应自行补造事实。
+
+### 句 8：市场调查与短期利润
+
+**原句**
+
+> Although the preliminary report informed the council that the turbulent market was relatively benign, a comprehensive investigation reveals a shocking revelation: the obsession with short-term profits has made property values highly vulnerable, fundamentally challenging the traditional convention that society comprises independent, rational individuals.
+
+**主干与修饰**
+
+- `Although ...` 是让步状语从句，不是条件状语。从句中 `the preliminary report informed the council that ...`，第一个 `that` 引出告知的内容。你在原作答里**已经标出了**这个宾语从句；DeepSeek 后续称你“漏掉”它，与作答不符。
+- 冒号前的主句是 `a comprehensive investigation reveals a shocking revelation`。冒号后说明揭露的内容：`the obsession with short-term profits has made property values highly vulnerable`，其中 `make + 宾语 + 形容词` 表“使……变得……”。
+- `fundamentally challenging ...` 是分词结构，说明前述事实的影响；`fundamentally` 是副词，不是逻辑连接词。第二个 `that society comprises ...` 解释 `convention` 的具体内容，属于内容从句。
+
+**译文**：尽管初步报告告知委员会，动荡的市场仍相对温和，一项全面调查却揭示了一个令人震惊的情况：对短期利润的痴迷已使房产价值变得高度脆弱，并从根本上挑战了“社会由独立、理性的个体组成”这一传统观念。
+
+**本次作答复盘与原句问题**：你找到了 `Although`、前一个 `that` 和冒号后的内容；需把 `Although` 改判为“让步”，并把 `has made property values highly vulnerable` 读成“使房产价值脆弱”，不是“短期利益脆弱”。`reveals a shocking revelation` 重复累赘；“房产价值脆弱”与最后的“传统观念”之间的论证联系也不够明确，这些是生成句本身的问题。
