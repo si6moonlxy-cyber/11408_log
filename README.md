@@ -15,6 +15,7 @@
 | 复习高数第二章：导数与微分 | [知识主干](03_Math/01_Calculus/MATH-P2-Knowledge.md) ↔ [解题推演](03_Math/01_Calculus/MATH-P2-Exercises.md)；原图见 [高数原图清单](00_Assets/screenshots/math/CCS/manifest.md) |
 | 复习数据结构第 1–4 章（基础） | [知识主干](04_408/01_Data_Structure/DS-P1-Knowledge.md) → [代码与习题](04_408/01_Data_Structure/DS-P1-Code-Exercises.md) |
 | 复习数据结构第 5–6 章（树与图） | [知识主干](04_408/01_Data_Structure/DS-P2-Knowledge.md) → [代码与习题](04_408/01_Data_Structure/DS-P2-Code-Exercises.md) |
+| 复习数据结构第 7 章（查找） | [知识主干](04_408/01_Data_Structure/DS-P3-Knowledge.md) → [代码与习题](04_408/01_Data_Structure/DS-P3-Code-Exercises.md) |
 | 复习英语 | [词汇](02_English/01_Vocabulary/EN-Vocabulary.md) · [长难句与句法](02_English/02_Syntax/EN-Syntax.md) · [发音](02_English/05_Context_Boost/EN-Context-Boost.md) · [后续阅读模板](02_English/03_Reading/EN-Templates-Reading.md) |
 | 查原图及处理状态 | [数据结构原图清单](00_Assets/screenshots/408/DS/manifest.md) |
 
@@ -23,7 +24,7 @@
 ```text
 11408/
 ├── 00_Assets/                 # 原始资料：ZIP、文本、本地 PDF；不嵌入笔记
-│   ├── screenshots/408/DS/    # 两份原图 ZIP + manifest
+│   ├── screenshots/408/DS/    # 四份原图 ZIP + manifest
 │   ├── screenshots/math/CCS/ # CCS-partN.zip、CCS-partN-draft.zip 与 manifest
 │   ├── texts/politics/        # 政治原典文本
 │   └── pdfs/politics/         # 仅本地，不入 Git
@@ -39,7 +40,7 @@
 └── README.md                  # 本入口
 ```
 
-英语词汇、长难句与发音分支已收录材料；阅读分支仅有待启用模板，写作分支仍为空目录。高数的笔记、手稿 ZIP 已归档并登记：第一章函数、极限、连续在 P1 双文档，第二章导数与微分在 P2 双文档；ZIP 的 `partN` 只表示上传批次，不决定电子笔记分卷。当前课程口径为武忠祥高数基础阶段，具体教材口径以高数学科规则为准。政治目录封存至 2027 年 7 月，考纲分支仍为预留；现有《中国通史》笔记属于 `00_Readings/`，不能当作史纲考点。数据结构按四组规划：P1 第 1–4 章基础、P2 第 5–6 章树与图已有双文档；第 7 章查找和第 8 章排序分别在原图核对后建立 P3、P4。
+英语词汇、长难句与发音分支已收录材料；阅读分支仅有待启用模板，写作分支仍为空目录。高数的笔记、手稿 ZIP 已归档并登记：第一章函数、极限、连续在 P1 双文档，第二章导数与微分在 P2 双文档；ZIP 的 `partN` 只表示上传批次，不决定电子笔记分卷。当前课程口径为武忠祥高数基础阶段，具体教材口径以高数学科规则为准。政治目录封存至 2027 年 7 月，考纲分支仍为预留；现有《中国通史》笔记属于 `00_Readings/`，不能当作史纲考点。数据结构按四组规划：P1 第 1–4 章基础、P2 第 5–6 章树与图、P3 第 7 章查找已有双文档；第 8 章排序待原图上传核对后建立 P4。
 
 ## 资料和证据
 
