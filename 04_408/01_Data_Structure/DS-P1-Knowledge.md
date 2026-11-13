@@ -11,8 +11,7 @@ aliases: [数据结构基础知识主干]
 
 # 数据结构 P1｜第 1–4 章：基础｜知识主干
 
-> [!info] 范围与来源
-> 第 1–4 章：绪论、线性表、栈与队列、串。依据 32 张已核对的原图中相关页面整理；具体推导与代码见 [[DS-P1-Code-Exercises]]。第 5–6 章见 [[DS-P2-Knowledge]]。
+**推导与代码：** [[DS-P1-Code-Exercises]]；**后续章节：** [[DS-P2-Knowledge]]。
 
 ## 1. 数据结构（Data Structure）与算法（Algorithm）基础
 
@@ -40,9 +39,7 @@ $$
 O(1)<O(\log n)<O(n)<O(n\log n)<O(n^2)<O(n^3)<O(2^n)<O(n!)
 $$
 
-> [!info] 草稿关联
-> 复杂度推导、等比数列求和、递归层数等演算见：  
-> [[DS-P1-Code-Exercises#1. 算法复杂度：轮数与每轮工作分开算]]
+复杂度推演见 [[DS-P1-Code-Exercises#1. 算法复杂度：轮数与每轮工作分开算]]。
 
 ---
 
