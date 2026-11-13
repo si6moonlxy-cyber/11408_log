@@ -74,3 +74,5 @@
 | CCS-part3-draft.zip | 61 | Weixin Image_20261112154042_61_1.jpg | 原点曲率及曲率半径试算 → P2 推演；点值公式适用性已复核 |
 
 正文归纳：第一章 [[MATH-P1-Knowledge]]、[[MATH-P1-Exercises]]；第二章 [[MATH-P2-Knowledge]]、[[MATH-P2-Exercises]]。同章后续批次续写对应双文档。DeepSeek 对话只作题设和自述核对，不保存原始对话或附件到本目录。
+
+第二章草稿核对使用的 [DeepSeek 分享对话](https://chat.deepseek.com/share/vjjt4k5pb5e5p0pypl)。

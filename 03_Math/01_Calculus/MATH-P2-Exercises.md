@@ -16,11 +16,7 @@ aliases:
 
 # 高数 Part 2｜导数与微分解题推演
 
-> [!info] 使用说明
-> 本文保留第二章草稿中可独立重做的题设、关键推导、已核实的个人复盘与仍有疑点的局部计算。定义和稳定结论见 [[MATH-P2-Knowledge]]；第一章见 [[MATH-P1-Exercises]]。原始资料是 `CCS-part3-draft.zip`，它的批次 `part3` 不决定本文的 P2 编号。
-
-> [!info] 证据边界
-> 原图序号 50–61 与 [DeepSeek 分享对话](https://chat.deepseek.com/share/vjjt4k5pb5e5p0pypl) 交叉核对。以下写“**我的错误**”的仅限用户在对话明确自述或原题和手稿足以核实的动作。DeepSeek 曾两次把正确的涂改读成错误，随后承认识图失误；因此不沿用其首次诊断。原图中的答案和对话解释也经过独立演算。
+**定义与结论：** [[MATH-P2-Knowledge]]；**前章：** [[MATH-P1-Exercises]]。
 
 ## 1. 分段点为什么同样不可导
 

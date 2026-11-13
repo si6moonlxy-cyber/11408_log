@@ -15,11 +15,19 @@ aliases:
 
 # 高数 Part 2｜导数（Derivative）与微分（Differential）知识主干
 
-> [!info] 使用说明
-> 本文放第二章可复习的定义、条件和结论；证明、原题、试算与疑点见 [[MATH-P2-Exercises]]。第一章函数、极限、连续见 [[MATH-P1-Knowledge]]。原图 `CCS-part3.zip` 与 `CCS-part3-draft.zip` 的 `part3` 只表示第三次上传，本章电子笔记为 P2。
+**推导与例题：** [[MATH-P2-Exercises]]；**前章：** [[MATH-P1-Knowledge]]。
 
-> [!info] 证据范围
-> 已核对本次 6 页笔记、12 页草稿，并用 [DeepSeek 分享对话](https://chat.deepseek.com/share/vjjt4k5pb5e5p0pypl) 核对用户提问与明确自述。以下结论依手稿与独立演算整理；未逐页核对《高等数学·基础篇》的版次、页码。对话中识图误判和不严谨说法已按定义更正，不能当作用户错误。
+## 复习总览：连续、可导与可微的条件对照
+
+下表讨论一元函数定义域的内点 $x_0$。
+
+| 层次 | 关注的量 | 在 $x_0$ 的判据 |
+|---|---|---|
+| 连续 | 函数值能否接上邻近趋势 | $f(x_0)$ 有定义，且 $\lim_{x\to x_0}f(x)=f(x_0)$ |
+| 可导 | 割线斜率是否趋于有限值 | $\lim_{h\to0}[f(x_0+h)-f(x_0)]/h$ 有限存在 |
+| 可微 | 实际增量是否有线性主部 | $\Delta y=A\Delta x+o(\Delta x)$；此时 $A=f'(x_0)$，$dy=A\,dx$ |
+
+因此，在这个前提下，**可导 ⇔ 可微 ⇒ 连续**。连续不能反推可导：$f(x)=|x|$ 在 $0$ 连续，却有不同的左右导数；可导也不保证导函数在该点连续，反例见 [[MATH-P2-Exercises#4. 可导但导函数不连续]]。这条主线从“函数值”推进到“变化率”和“局部线性近似”；证明与例题仍放在 [[MATH-P2-Exercises]]。
 
 ## 1. 导数（Derivative）先是一个极限
 
@@ -103,10 +111,10 @@ $$
 |---|---|---|
 | $x^\alpha$ | $\alpha x^{\alpha-1}$ | $x>0$ 保证任意实数 $\alpha$ 有定义；整数幂可按自身定义域扩展 |
 | $e^x$, $a^x$ | $e^x$, $a^x\ln a$ | 指数底数条件如上 |
-| $\ln x$, $\log_a x$ | $1/x$, $1/(x\ln a)$ | $x>0$；$\ln|x|$ 在 $x\ne0$ 的导数也为 $1/x$ |
+| $\ln x$, $\log_a x$ | $1/x$, $1/(x\ln a)$ | $x>0$；$\ln\lvert x\rvert$ 在 $x\ne0$ 的导数也为 $1/x$ |
 | $\sin x$, $\cos x$ | $\cos x$, $-\sin x$ | 全体实数 |
 | $\tan x$, $\cot x$ | $\sec^2x$, $-\csc^2x$ | 原函数有定义处 |
-| $\arcsin x$, $\arccos x$ | $1/\sqrt{1-x^2}$, $-1/\sqrt{1-x^2}$ | $|x|<1$ |
+| $\arcsin x$, $\arccos x$ | $1/\sqrt{1-x^2}$, $-1/\sqrt{1-x^2}$ | $\lvert x\rvert<1$ |
 | $\arctan x$, $\operatorname{arccot}x$ | $1/(1+x^2)$, $-1/(1+x^2)$ | $\operatorname{arccot}$ 采用值域 $(0,\pi)$ 的约定 |
 
 ### 3.1 对数求导（Logarithmic Differentiation）
