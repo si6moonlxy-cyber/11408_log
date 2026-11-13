@@ -79,6 +79,21 @@ void in_thread(ThreadNode *q, ThreadNode **pre) {
 
 草稿中队列保存待扩展顶点，`visited` 防止重复入队。起点被发现后先标记并入队；每次取出一个顶点，按题目规定的邻接顺序发现尚未访问的邻接点。**入队时就标记**，避免同一顶点被多个前驱重复加入。
 
+下图中的 `v` 是本轮出队顶点，`w` 是正在检查的邻点。箭头表示队列与访问标记的状态变化，邻点的实际枚举顺序仍由题目决定。
+
+```mermaid
+flowchart TB
+    S["起点 s：标记 visited[s]，s 入队"] --> Q{"队列为空？"}
+    Q -->|否| V["出队 v 并访问 v"]
+    V --> N{"v 还有未检查的邻点 w？"}
+    N -->|有| C{"visited[w] 已标记？"}
+    C -->|否| A["标记 visited[w]，w 入队"]
+    C -->|是| N
+    A --> N
+    N -->|无| Q
+    Q -->|是| E["起点可达部分遍历结束"]
+```
+
 ```c
 // Graph、IntQueue、first_neighbor、next_neighbor 等由具体存储实现提供。
 void bfs(const Graph *g, int s, bool visited[], IntQueue *q) {
@@ -132,6 +147,21 @@ void bfs_shortest(const Graph *g, int s, int n,
 
 带权图草稿同时维护 `final`、`dist`、`path`：分别表示最短距离是否已确定、当前候选距离、该候选路线的前驱下标。每轮从未确定顶点中选 `dist` 最小的顶点 `u`，再令 `final[u]=true`，然后尝试通过 `u` 缩短其邻接点的距离；更新距离时同步更新前驱。
 
+状态按以下次序改变；图中 `u`、`w` 代表顶点下标，`weight(u,w)` 代表边权，没有代入手稿中被改动的边权表。
+
+```mermaid
+flowchart TB
+    S["未确定顶点中选 dist 最小且可达的 u"] --> F["final[u] = true"]
+    F --> W{"还有从 u 出发、指向未确定顶点 w 的边？"}
+    W -->|有| C{"经 u 到 w 的距离更短？"}
+    C -->|是| U["dist[w] = dist[u] + weight(u,w)<br/>path[w] = u"]
+    C -->|否| W
+    U --> W
+    W -->|无| R["进入下一轮选点；无可达候选时停止"]
+```
+
+`final[u]` 只在选出 `u` 后改变；`dist[w]` 与 `path[w]` 则只在松弛成功时一起改变。数值推演应另按题目逐轮填写 `final/dist/path` 表。
+
 > [!danger] 我的错误（已证实）
 > 原图把选点之前的 `final[u]=true` 划掉了；此时还没有选出本轮顶点。下方循环虽先求得 `nex`，却又写了 `final[i]=true`，其中 `i` 是外层轮次变量，`nex` 才是本轮选中的顶点。应在确认 `nex` 有效且可达后写 `final[nex]=true`，再松弛从 `nex` 出发的边。依据是原图中的变量声明、选最小距离的赋值和随后的标记位置。
 
@@ -140,6 +170,21 @@ void bfs_shortest(const Graph *g, int s, int n,
 ## 9. Floyd：距离矩阵与中转点矩阵同步更新
 
 草稿按中转点 `k` 检查每对 `i,j`：若 `A[i][k]+A[k][j]` 更短，就更新 `A[i][j]`。这套笔记的 `Path[i][j]` 采用**中转点下标**约定，更新时记录 `k`；它不是显示在图上的结点名称，也不是 Dijkstra 的前驱数组。
+
+每轮固定一个中转点 `k`，对所有有序顶点对 `(i,j)` 检查下图的状态变化；图中不代入手稿中反复修改的矩阵数值。
+
+```mermaid
+flowchart TB
+    S["固定中转点 k，取顶点对 i、j"] --> G{"i 到 k、k 到 j 都可达？"}
+    G -->|否| K["A[i][j]、Path[i][j] 保持不变"]
+    G -->|是| C{"经 k 的距离更短？"}
+    C -->|否| K
+    C -->|是| U["A[i][j] = A[i][k] + A[k][j]<br/>Path[i][j] = k"]
+    K --> N["检查下一对 i、j；本轮完成后换 k"]
+    U --> N
+```
+
+`A[i][j]` 是距离，`Path[i][j]` 是用于复原该路线的中转点下标；两者只在候选路线更短时同步改动。逐轮矩阵数值应按原题边权另行核对。
 
 $$
 A[i][j]\leftarrow\min\{A[i][j], A[i][k]+A[k][j]\}.
