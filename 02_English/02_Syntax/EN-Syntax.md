@@ -13,7 +13,7 @@ aliases:
 
 # 句法结构拆解
 
-先找主干，再判断修饰语依附于动词还是名词。下列材料来自用户提交的草案或分享的生成对话，**均没有真题出处**。长难句按“原句 → 主干与修饰 → 译文 → 本句难词”紧邻记录；每句使用独立小节，便于在 Obsidian 中折叠浏览。
+先找主干，再判断修饰语依附于动词还是名词。长难句按“原句 → 主干与修饰 → 译文 → 本句难词”记录。
 
 ## 案例：`downward` 的位置
 
@@ -111,11 +111,11 @@ aliases:
 | `proof` | 证明、证据 | `as proof of ...`；“资金可证明生存能力”只是例句主张。 |
 | `substantial capital` / `economic downturns` | 大量资金 / 经济低迷 | `downturn` 不等于“倒闭”。 |
 
-本次作答抓到了 `survey`、`indicates` 和 `that`，但把结论读成“公司因赤字倒闭”。可核对的改进点是进入 `that` 从句后，继续追踪 `reserve` 与 `survive` 的动作方向。生成例句中的调查是否存在、其结论是否成立，均未核实。
+本次作答抓到了 `survey`、`indicates` 和 `that`，但把结论读成“公司因赤字倒闭”。改进点是进入 `that` 从句后，继续追踪 `reserve` 与 `survive` 的动作方向。
 
 ### 阶段复盘
 
-这两句显示：只摘主题名词可以帮助确定话题，却不足以保证读懂谓语、否定、让步、从句和结果关系；不能据此估算整体阅读正确率。当前阶段先练长难句，读懂主干为最低标准；修饰语影响句意时再拆。后续长文与真题放在 `03_Reading/`，每篇原文与自己的解析相邻，不把多篇原文和多篇解析分开堆放。
+只摘主题名词可以帮助确定话题，却不足以读懂谓语、否定、让步、从句和结果关系。先读懂主干；修饰语影响句意时再拆。
 
 语法与词义核对：[Cambridge：in spite of and despite](https://dictionary.cambridge.org/grammar/british-grammar/in-spite-of-and-despite)、[passive forms](https://dictionary.cambridge.org/grammar/british-grammar/passive-forms)、[objects](https://dictionary.cambridge.org/grammar/british-grammar/objects)、[resort to](https://dictionary.cambridge.org/dictionary/english/resort-to)。
 

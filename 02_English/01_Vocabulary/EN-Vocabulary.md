@@ -13,7 +13,7 @@ aliases:
 
 # 词汇与构词线索
 
-本页收录本次材料中的词，**不等于已核实的考研高频表**。先记现代词义和搭配，再用词源或词族帮助辨形；词源不是把现代拼写逐字拆开的公式。
+先记现代词义和搭配，再用词源或词族帮助辨形；词源不能当作现代拼写的逐字拆分公式。
 
 ## 本次词汇
 
@@ -42,4 +42,4 @@ aliases:
 - 词义与辨析：[Cambridge consequence](https://dictionary.cambridge.org/dictionary/english/consequence)、[confidential](https://dictionary.cambridge.org/dictionary/english/confidential)、[considerable](https://dictionary.cambridge.org/dictionary/english/considerable)、[contemptuous](https://dictionary.cambridge.org/dictionary/english/contemptuous)、[contemptible](https://dictionary.cambridge.org/dictionary/english/contemptible)。
 - 词源：[Oxford considerable](https://www.oxfordlearnersdictionaries.com/definition/english/considerable)、[Etymonline precise](https://www.etymonline.com/word/precise)、[contempt](https://www.etymonline.com/word/contempt)、[preach](https://www.etymonline.com/word/preach)、[receipt](https://www.etymonline.com/word/receipt)、[emerge](https://www.etymonline.com/word/emerge)。
 
-当前可从本页选词练长难句，例句与逐句解析见 [[EN-Syntax]]；后续长文模板见 [[EN-Templates-Reading]]。生成例句须再次核对搭配。
+**句法练习：** [[EN-Syntax]]；**阅读模板：** [[EN-Templates-Reading]]。
