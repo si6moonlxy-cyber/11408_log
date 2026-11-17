@@ -243,3 +243,76 @@ aliases:
 **译文**：尽管初步报告告知委员会，动荡的市场仍相对温和，一项全面调查却揭示了一个令人震惊的情况：对短期利润的痴迷已使房产价值变得高度脆弱，并从根本上挑战了“社会由独立、理性的个体组成”这一传统观念。
 
 **本次作答复盘与原句问题**：你找到了 `Although`、前一个 `that` 和冒号后的内容；需把 `Although` 改判为“让步”，并把 `has made property values highly vulnerable` 读成“使房产价值脆弱”，不是“短期利益脆弱”。`reveals a shocking revelation` 重复累赘；“房产价值脆弱”与最后的“传统观念”之间的论证联系也不够明确，这些是生成句本身的问题。
+
+## 长难句练习：系统故障与学术剽窃（2026-11-15 核对）
+
+来源：[DeepSeek 新分享对话](https://chat.deepseek.com/share/kbw9dlkh70ojhp4wgo)。上次记录以市场调查句及其批改为止；此后新生成、作答并批改了以下两句。两句为生成练习，并非真题。
+
+### 句 1：系统故障的归因
+
+**原句**
+
+> Although the startup's initial pitch was built on the premise of a flawless network protocol, investigators attribute the perpetual system failures to a failure to attend to seemingly trivial code errors, which aggravates the financial crisis.
+
+**主干与修饰**
+
+- `Although ...` 是让步状语从句，其主干为 `the startup's initial pitch was built on the premise ...`。`pitch` 在此指初创公司的推介说辞，`was built on` 是被动谓语，不能只抽出 `pitch built premise`。
+- 主句为 `investigators attribute the perpetual system failures to a failure ...`。在 `attribute A to B` 中，`A` 是持续发生的系统故障，`B` 是未能处理代码错误；`to attend to ...` 修饰第二个 `failure`，其中 `attend to` 意为“处理”。
+- `which aggravates the financial crisis` 是补充说明结果的非限制性定语从句。`aggravates` 为单数，`which` 不能直接指复数 `errors`；但它究竟承接前面整件事，还是承接“未能处理错误”这一情况，原句没有说清。DeepSeek 批改把它唯一解释为“调查人员的归因加剧危机”，证据不足。
+
+**译文**：尽管这家初创公司最初的推介说辞建立在网络协议毫无缺陷这一前提上，调查人员仍把持续发生的系统故障归因于未能处理那些看似琐碎的代码错误；这种情况加剧了财务危机。
+
+**本次作答复盘**：你抓到了 `Although` 和 `attribute ... to ...` 的归因关系，也认出了 `which`；进一步要区分让步从句的 `pitch was built` 与主句的 `investigators attribute failures to ...`。`trivial` 修饰代码错误，`perpetual` 修饰系统故障；句尾 `which` 的指代保留歧义，不把它算作你已确定的理解。
+
+### 句 2：学术剽窃的起因与评价
+
+**原句**
+
+> To what extent the origin of academic plagiarism can be interpreted as a lack of self-discipline remains debatable, but researchers often treat it as an act of disrespect rather than a mere breach of courtesy.
+
+**主干与修饰**
+
+- 逗号前，整个 `To what extent ... can be interpreted as ...` 是主语从句，主句谓语是 `remains debatable`（仍有争议）。`To what extent` 意为“在多大程度上”，并非“通过探索”；从句内部的 `can be interpreted` 是被动结构，不能替代外层谓语。
+- `but` 连接后半句 `researchers often treat it as an act of disrespect`。`it` 按上下文最自然地指 `academic plagiarism`；`rather than a mere breach of courtesy` 与 `an act of disrespect` 对照，意思是“而非仅仅失礼”。
+
+**译文**：学术剽窃的起因在多大程度上可以被理解为缺乏自律，仍有争议；但研究人员通常把剽窃视为不尊重他人的行为，而非仅仅是失礼。
+
+**本次作答复盘与原句问题**：你抓到了 `but` 两侧的话题以及 `researchers treat it`，但前半句还需补上外层谓语 `remains debatable`；`self-discipline` 是“自律”，`rather than` 否定的是“仅仅违反礼貌”这一较弱判断。原句把 `the origin ...` 直接说成 `a lack of self-discipline`，搭配略生硬；若保留“在多大程度上”的意思，可另写为 `To what extent academic plagiarism can be attributed to a lack of self-discipline remains debatable.` 这是改写，不是原句。`To what extent` 在本句引出主语从句，不能据此认为它在所有句子里都如此使用。
+
+## 长难句练习：裁员与员工焦虑（2026-11-17 核对）
+
+来源：[DeepSeek 后续分享对话](https://chat.deepseek.com/share/94tbds9ly3gkkz8brk)。以下两句已在对话中完成作答和解析，均为生成练习，不是真题。对话后面另生成的两句尚未作答，本节不将它们记为已解析。
+
+### 句 1：进口配额与裁员
+
+**原句**
+
+> Even though the multinational corporation recognized the immense prestige and flawless reputation of the local partner, the strict legal jurisdiction and a rigid import quota forced the company to cut jobs, rendering many administrative roles completely redundant.
+
+**主干与修饰**
+
+- `Even though ...` 是让步状语从句，内部主干为 `the multinational corporation recognized the ... prestige and ... reputation`；`of the local partner` 修饰威望与声誉，说明它们属于当地合作伙伴，并非说明跨国公司的声誉从合作伙伴而来。
+- 主句为 `the strict legal jurisdiction and a rigid import quota forced the company to cut jobs`。并列主语是 `jurisdiction and ... quota`，谓语是 `forced`，宾语是 `the company`，`to cut jobs` 说明被迫采取的行动。`jurisdiction` 在此是“管辖权／管辖范围”，不是“执法局”。
+- `rendering many administrative roles completely redundant` 是分词结构，表示前述裁员带来的结果；其中 `render + 宾语 + 形容词` 表“使……变得……”。
+
+**译文**：尽管这家跨国公司认可当地合作伙伴享有的崇高威望和良好声誉，但严格的法律管辖安排及僵化的进口配额迫使该公司裁员，导致许多行政岗位变得多余。
+
+**本次作答复盘与原句问题**：你找到了 `Even though`，也抓住了 `jurisdiction ... forced`，但主语还包括 `a rigid import quota`；`forced the company to cut jobs` 是“迫使公司裁员”，不是“减少公司裁员”。原句将 `strict legal jurisdiction` 写作裁员原因，搭配和具体因果都不够明确；`cut jobs` 后再说岗位变得 `redundant`，因果顺序也略显别扭。阅读时按原句辨认结构，不把这些表达当成地道范例。
+
+### 句 2：焦虑、小测验与涨薪游行
+
+**原句**
+
+> It is a queer and perpetual phenomenon that employees often quiver with anxiety over trivial issues, yet a simple quiz may suffice to frustrate their confidence; therefore, they demand concrete evidence of management's competence before they march for higher pay.
+
+**主干与修饰**
+
+- 第一部分的 `It` 是形式主语，`is a queer and perpetual phenomenon` 是外层谓语和表语；`that employees often quiver with anxiety over trivial issues` 才是后置的主语从句，其中 `employees quiver` 是从句主干，`over trivial issues` 说明焦虑的缘由。
+- `yet` 连接转折的后一分句：`a simple quiz may suffice to frustrate their confidence`。`quiz` 是主语，`may suffice` 是谓语，`to frustrate their confidence` 说明“足以做什么”。
+- 分号后另起分句：`therefore, they demand concrete evidence of management's competence`。`therefore` 是表示结果的副词；`before they march for higher pay` 是时间状语从句，意为“在他们为争取更高薪酬而游行之前”，不是“匹配费用”。
+
+**译文**：员工常因琐事焦虑得发抖，这是个奇怪而持续存在的现象；然而，一场简单的小测验可能就足以挫伤他们的信心。因此，在为争取更高薪酬而游行之前，他们要求看到管理层能力的具体证明。
+
+**本次作答复盘与原句问题**：你认出了 `It ... that`、`yet` 和 `therefore`，也读出了员工因琐事焦虑；第二句的主干当时留空，可按分号和 `yet` 切成三部分，再各找谓语 `is`、`may suffice`、`demand`。你把 `quiz` 与 `evidence` 连在一起，也把 `march for higher pay` 误读为费用关系；原句并没有说测验“找出证据”。句中“小测验挫伤信心”如何推出“要求管理层证明能力并准备涨薪游行”，逻辑衔接较弱，属于生成句自身的问题。
+
+**后续练习偏好**：保留极长句练习；作答前先列出句中常用短语及其意思，再由你尝试找逻辑词、主干和大意。本次对话随后生成的两句仍待作答，不纳入上面的已解析练习。
