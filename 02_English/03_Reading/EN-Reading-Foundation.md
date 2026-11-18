@@ -17,7 +17,7 @@ aliases:
 
 用于长难句和阅读理解的预习与复盘。每次先扫“短语包”，再按“连接词 → 主干 → 修饰层”的顺序阅读。这里的例句来自生成练习，不是真题；短语本身需在不同阅读材料中重复识别。
 
-来源：[DeepSeek 分享对话](https://chat.deepseek.com/share/6vcld5rtvd3sdnffwx)。长难句的通用拆解方法见 [[EN-Syntax]]；词汇义项可查 [[EN-Vocabulary]]。
+来源：[DeepSeek 分享对话](https://chat.deepseek.com/share/6vcld5rtvd3sdnffwx)。对应长句的完整拆解见 [[EN-Syntax#长难句练习：传统制度与歧视后果（2026-11-18 核对）]]；词汇义项可查 [[EN-Vocabulary]]。
 
 ## 本次短语包：制度、歧视与社会影响
 

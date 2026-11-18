@@ -316,3 +316,24 @@ aliases:
 **本次作答复盘与原句问题**：你认出了 `It ... that`、`yet` 和 `therefore`，也读出了员工因琐事焦虑；第二句的主干当时留空，可按分号和 `yet` 切成三部分，再各找谓语 `is`、`may suffice`、`demand`。你把 `quiz` 与 `evidence` 连在一起，也把 `march for higher pay` 误读为费用关系；原句并没有说测验“找出证据”。句中“小测验挫伤信心”如何推出“要求管理层证明能力并准备涨薪游行”，逻辑衔接较弱，属于生成句自身的问题。
 
 **后续练习偏好**：保留极长句练习；作答前先列出句中常用短语及其意思，再由你尝试找逻辑词、主干和大意。本次对话随后生成的两句仍待作答，不纳入上面的已解析练习。
+
+## 长难句练习：传统制度与歧视后果（2026-11-18 核对）
+
+来源：[DeepSeek 分享对话](https://chat.deepseek.com/share/6vcld5rtvd3sdnffwx)。本句是生成练习，不是真题；其中可迁移的短语与阅读补丁见 [[EN-Reading-Foundation]]。
+
+### 句 1：研究、歧视倾向与社会影响
+
+**原句**
+
+> While recent studies have shed light on the complex texture of this traditional institution, the terrific consequences of its tendency to discriminate continue to vibrate across society, threatening to shatter public trust and shear off the foundational pillars of stability, ultimately instilling terror in the marginalized.
+
+**主干与修饰**
+
+- `While recent studies have shed light on ...` 是句首从句，内部主干为 `studies have shed light on the ... texture`。`shed light on` 是整体，意为“阐明／揭示”；`of this traditional institution` 修饰 `texture`。这里的 `while` 可表示时间、对比或让步，结合上下文可译作“尽管”，但不能只因句首位置就固定判成让步。
+- 主句主干是 `the ... consequences ... continue to vibrate across society`。中心主语是 `consequences`，`of its tendency to discriminate` 说明“该制度歧视倾向带来的后果”；不能将 `to discriminate` 或 `institution` 误当成主句主语。
+- `threatening to shatter ... and shear off ...` 是分词结构，补充这些后果造成的威胁。`threaten to shatter` 表“威胁要粉碎”，不表示公众信任已经被粉碎；`shear off` 表“切断／剥离”。
+- `ultimately instilling terror in the marginalized` 继续说明最终影响。`instill A in B` 中，`terror` 是被灌输的内容，`the marginalized` 是被边缘化的人或群体，不是“社会边缘”。
+
+**译文**：尽管近期研究已揭示这一传统制度复杂的结构与特征，其歧视倾向所造成的严重后果仍在社会中持续扩散和震荡，威胁要摧毁公众信任、破坏稳定的基础支撑，并最终使被边缘化群体陷入恐惧。
+
+**本次作答复盘与原句问题**：你准确识别了 `shed light on`、`tendency to do sth.` 和 `shear off`，并查出了 `pillars` 的基本义。接下来需优先压缩长名词短语，先还原 `consequences continue to vibrate`，再补 `of its tendency to discriminate`；同时固定检查 `instill A in B` 的内容与对象，避免把“向边缘化群体灌输恐惧”译成“恐惧徘徊在社会边缘”。原句的 `terrific consequences` 容易被理解成褒义的“极好的后果”，而 `vibrate across society`、末尾两层分词之间的因果关系也较生硬；把它用于句法训练即可，不将整句当作自然表达模板。
