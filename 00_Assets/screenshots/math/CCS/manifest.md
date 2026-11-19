@@ -1,6 +1,6 @@
-# 高数原图清单：第一章函数、极限、连续；第二章导数与微分
+# 高数原图清单：第一章函数、极限、连续；第二章导数与微分；第三章微分中值定理与导数应用
 
-本目录存放高数手写笔记与草稿 ZIP，仅用于原始资料回查，不属于 Obsidian 正文笔记。ZIP 的 `partN` 是原始资料上传批次，不等于电子笔记的 P 编号：批次 1、2 对应第一章 P1 双文档；批次 3 对应第二章 P2 双文档。
+本目录存放高数手写笔记与草稿 ZIP，仅用于原始资料回查，不属于 Obsidian 正文笔记。ZIP 的 `partN` 是原始资料上传批次，不等于电子笔记的 P 编号：批次 1、2 对应第一章 P1 双文档；批次 3 对应第二章 P2 双文档；批次 4 对应第三章 P3 双文档。
 
 ## 归档与核对
 
@@ -10,7 +10,9 @@
 - `CCS-part2-draft.zip`：草稿，18 张 JPG，原文件名序号 164–181。
 - `CCS-part3.zip`：第二章笔记，6 张 JPG，原文件名序号 44–49。
 - `CCS-part3-draft.zip`：第二章草稿，12 张 JPG，原文件名序号 50–61。
-- 六份 ZIP 共 55 张图片。本批两份 ZIP 通过完整性检查，本批 18 张按文件内容哈希检查没有完全重复。前两批 37 张的完整性与去重结果沿用此前登记。
+- `CCS-part4.zip`：第三章笔记，7 张 JPG，原文件名序号 202–208。
+- `CCS-part4-draft.zip`：第三章草稿及相邻章节复习，15 张 JPG，原文件名序号 209–223。
+- 八份 ZIP 共 77 张图片。第四批两份 ZIP 通过完整性检查，本批 22 张按文件内容哈希检查没有完全重复。前 55 张的核对结果沿用此前登记。
 - 下表按原文件名序号排列；ZIP 内存放顺序可能不同。归类表示已提取可辨主题，不代表每道涂改题都已核实。
 
 ## 条目清单
@@ -72,7 +74,30 @@
 | CCS-part3-draft.zip | 59 | Weixin Image_20261112154042_59_1.jpg | 参数方程约分复盘；莱布尼茨公式 → P2 推演 |
 | CCS-part3-draft.zip | 60 | Weixin Image_20261112154042_60_1.jpg | 隐函数切线、$y^2=x$ 分支与曲率 → P2 推演 |
 | CCS-part3-draft.zip | 61 | Weixin Image_20261112154042_61_1.jpg | 原点曲率及曲率半径试算 → P2 推演；点值公式适用性已复核 |
+| CCS-part4.zip | 202 | Weixin Image_20261119142533_202_25.jpg | 第三章入口；费马、罗尔、拉格朗日、柯西中值定理 → P3 主干 |
+| CCS-part4.zip | 203 | Weixin Image_20261119142533_203_25.jpg | 泰勒两种余项、单调性 → P3 主干；条件对照 |
+| CCS-part4.zip | 204 | Weixin Image_20261119142533_204_25.jpg | 极值必要与充分条件、闭区间最值 → P3 主干 |
+| CCS-part4.zip | 205 | Weixin Image_20261119142533_205_25.jpg | 二阶导数、拐点、渐近线 → P3 主干；名称歧义用弦位置说明 |
+| CCS-part4.zip | 206 | Weixin Image_20261119142533_206_25.jpg | 斜渐近线、曲率及综合极限入口 → P3 主干；曲率原题链接 P2 |
+| CCS-part4.zip | 207 | Weixin Image_20261119142533_207_25.jpg | 方程根、单调性与不等式证明 → P3 主干及推演 |
+| CCS-part4.zip | 208 | Weixin Image_20261119142533_208_25.jpg | 第三章总结页 → P3 主题导航 |
+| CCS-part4-draft.zip | 209 | Weixin Image_20261119142550_209_25.jpg | 曲率与反三角求导复习 → 已有 P2 推演交叉核对 |
+| CCS-part4-draft.zip | 210 | Weixin Image_20261119142550_210_25.jpg | 导数符号图、不可导极值点 → P3 极值对照 |
+| CCS-part4-draft.zip | 211 | Weixin Image_20261119142550_211_25.jpg | 分段点导数、指数与对数展开精度 → P3 推演 |
+| CCS-part4-draft.zip | 212 | Weixin Image_20261119142550_212_25.jpg | 变上限积分极限的洛必达试算 → P3 双解法推演 |
+| CCS-part4-draft.zip | 213 | Weixin Image_20261119142550_213_25.jpg | 积分极限续算、分段幂指函数 → P3 推演 |
+| CCS-part4-draft.zip | 214 | Weixin Image_20261119142550_214_25.jpg | 幂指函数求导订正、球内接圆锥最值 → P3 推演 |
+| CCS-part4-draft.zip | 215 | Weixin Image_20261119142550_215_25.jpg | 对数函数拐点与切线、绝对值极值 → P3 推演 |
+| CCS-part4-draft.zip | 216 | Weixin Image_20261119142550_216_25.jpg | 无穷远渐近线与局部展开 → P3 推演 |
+| CCS-part4-draft.zip | 217 | Weixin Image_20261119142550_217_25.jpg | 含对数的三角极限，草稿多次涂改 → P3 重推 |
+| CCS-part4-draft.zip | 218 | Weixin Image_20261119142550_218_25.jpg | 上题续算、余弦乘积与振荡项极限 → P3 推演 |
+| CCS-part4-draft.zip | 219 | Weixin Image_20261119142550_219_25.jpg | 含余弦方程唯一根、抽象函数积分极限试算 → 唯一根入 P3；后题题设未齐不立题 |
+| CCS-part4-draft.zip | 220 | Weixin Image_20261119142550_220_25.jpg | 系数和与罗尔定理、对数函数极值试算 → P3 推演 |
+| CCS-part4-draft.zip | 221 | Weixin Image_20261119142550_221_25.jpg | 对数不等式的导数法与中值定理法 → P3 推演 |
+| CCS-part4-draft.zip | 222 | Weixin Image_20261119142550_222_25.jpg | 对称不等式与辅助函数试算 → P3 知识链；局部涂改不作定论 |
+| CCS-part4-draft.zip | 223 | Weixin Image_20261119142550_223_25.jpg | 中值定理逆向使用、导数符号存在性 → P3 推演；末题条件不齐不立题 |
 
-正文归纳：第一章 [[MATH-P1-Knowledge]]、[[MATH-P1-Exercises]]；第二章 [[MATH-P2-Knowledge]]、[[MATH-P2-Exercises]]。同章后续批次续写对应双文档。DeepSeek 对话只作题设和自述核对，不保存原始对话或附件到本目录。
+正文归纳：第一章 [[MATH-P1-Knowledge]]、[[MATH-P1-Exercises]]；第二章 [[MATH-P2-Knowledge]]、[[MATH-P2-Exercises]]；第三章 [[MATH-P3-Knowledge]]、[[MATH-P3-Exercises]]。同章后续批次续写对应双文档。DeepSeek 对话只作题设和自述核对，不保存原始对话或附件到本目录。
 
 第二章草稿核对使用的 [DeepSeek 分享对话](https://chat.deepseek.com/share/vjjt4k5pb5e5p0pypl)。
+第三章草稿核对使用的 [DeepSeek 分享对话](https://chat.deepseek.com/share/se0z8p2q1fez5gawkw)。

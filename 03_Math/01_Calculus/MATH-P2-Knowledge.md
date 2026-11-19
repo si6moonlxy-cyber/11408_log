@@ -15,7 +15,7 @@ aliases:
 
 # 高数 Part 2｜导数（Derivative）与微分（Differential）知识主干
 
-**推导与例题：** [[MATH-P2-Exercises]]；**前章：** [[MATH-P1-Knowledge]]。
+**推导与例题：** [[MATH-P2-Exercises]]；**前章：** [[MATH-P1-Knowledge]]；**后章：** [[MATH-P3-Knowledge]]。
 
 ## 复习总览：连续、可导与可微的条件对照
 

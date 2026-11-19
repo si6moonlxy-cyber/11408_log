@@ -16,7 +16,7 @@ aliases:
 
 # 高数 Part 2｜导数与微分解题推演
 
-**定义与结论：** [[MATH-P2-Knowledge]]；**前章：** [[MATH-P1-Exercises]]。
+**定义与结论：** [[MATH-P2-Knowledge]]；**前章：** [[MATH-P1-Exercises]]；**后章：** [[MATH-P3-Exercises]]。
 
 ## 1. 分段点为什么同样不可导
 
