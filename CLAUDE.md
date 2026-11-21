@@ -52,10 +52,10 @@
 | 操作系统 | `OS` | `04_408/03_Operating_System/` | `00_Assets/screenshots/408/OS/` | `04_408/03_Operating_System/README.md` | 未初始化 |
 | 计算机网络 | `CN` | `04_408/04_Computer_Network/` | `00_Assets/screenshots/408/CN/` | `04_408/04_Computer_Network/README.md` | 未初始化 |
 | 数学（二） | `MATH` | `03_Math/` | `00_Assets/screenshots/math/<branch>/`（高数：`CCS/`） | `03_Math/README.md` | 高数 P1 函数、极限、连续；P2 导数、微分；P3 微分中值定理、导数应用双文档已建立；旧资料尚未逐项按数二核对 |
-| 英语（二） | `EN` | `02_English/` | `00_Assets/screenshots/english/` | `02_English/README.md` | 词汇、句法与发音已初始化；阅读仅有待启用模板，写作预留 |
+| 英语（二） | `EN` | `02_English/` | `00_Assets/screenshots/english/` | `02_English/README.md` | 词汇与短语、语法知识与练习分篇；阅读基础与模板已建，写作预留 |
 | 政治 | `POL` | `01_Politics/` | `00_Assets/texts/politics/`、`00_Assets/pdfs/politics/` | `01_Politics/README.md` | 阅读笔记已初始化；考纲目录预建 |
 
-> 英语阅读分支目前仅存待启用模板，尚未开始长文或真题训练；写作分支及数学、政治考纲分支已按用户决策预建空目录。空目录只表达路由，不代表已学习或已核对教材；学科规则未建立前不新建具体笔记。政治 `00_Readings/` 是读书总结，四个考纲分支另立。
+> 英语阅读分支保留证据与逻辑复盘及待启用模板，尚未开始长文或真题训练；写作分支及数学、政治考纲分支已按用户决策预建空目录。空目录只表达路由，不代表已学习或已核对教材；学科规则未建立前不新建具体笔记。政治 `00_Readings/` 是读书总结，四个考纲分支另立。
 
 ### 2.3 处理任何学习资料前的读取顺序
 
@@ -133,7 +133,7 @@
 
 ### 4.1 知识主干与学习过程的分工
 
-写作时先区分稳定结论与学习过程。当前数据结构和高数用双文档承载；英语按能力分支、政治读书与考纲分轨，不强制新增同名双文档。各学科的微观内容类型见 [`99_System/NOTE-SCHEMA.md`](99_System/NOTE-SCHEMA.md)。
+写作时先区分稳定结论与学习过程。当前数据结构和高数用双文档承载；英语按能力分支，Syntax 内以知识篇与练习篇互链、Vocabulary 区分单词与短语，具体约定见英语 README；政治读书与考纲分轨，不强制新增同名双文档。各学科的微观内容类型见 [`99_System/NOTE-SCHEMA.md`](99_System/NOTE-SCHEMA.md)。
 
 #### A. 知识主干
 

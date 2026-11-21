@@ -12,7 +12,7 @@ tags:
 
 # 后续阶段：阅读材料生成模板
 
-做题前的短语与结构复习见 [[EN-Reading-Foundation]]。
+做题前先复习 [[EN-Vocabulary-Phrases]] 与 [[EN-Syntax-Knowledge]]；理解原文证据与逻辑关系时参照 [[EN-Reading-Foundation]]。
 
 可从近期生词中选 10–15 个做语境练习；频率按实际掌握情况调整，不预设固定日程。若一次生成多篇，**每篇原文后立即给该篇解析**，避免多篇原文与解析分列。
 

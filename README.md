@@ -16,7 +16,7 @@
 | 复习数据结构第 1–4 章（基础） | [知识主干](04_408/01_Data_Structure/DS-P1-Knowledge.md) → [代码与习题](04_408/01_Data_Structure/DS-P1-Code-Exercises.md) |
 | 复习数据结构第 5–6 章（树与图） | [知识主干](04_408/01_Data_Structure/DS-P2-Knowledge.md) → [代码与习题](04_408/01_Data_Structure/DS-P2-Code-Exercises.md) |
 | 复习数据结构第 7 章（查找） | [知识主干](04_408/01_Data_Structure/DS-P3-Knowledge.md) → [代码与习题](04_408/01_Data_Structure/DS-P3-Code-Exercises.md) |
-| 复习英语 | [词汇](02_English/01_Vocabulary/EN-Vocabulary.md) · [长难句与句法](02_English/02_Syntax/EN-Syntax.md) · [发音](02_English/05_Context_Boost/EN-Context-Boost.md) · [后续阅读模板](02_English/03_Reading/EN-Templates-Reading.md) |
+| 复习英语 | [英语导航](02_English/EN-MOC.md) · [单词](02_English/01_Vocabulary/EN-Vocabulary.md) · [短语](02_English/01_Vocabulary/EN-Vocabulary-Phrases.md) · [语法知识](02_English/02_Syntax/EN-Syntax-Knowledge.md) · [例句与练习](02_English/02_Syntax/EN-Syntax.md) · [阅读基础](02_English/03_Reading/EN-Reading-Foundation.md) · [发音](02_English/05_Context_Boost/EN-Context-Boost.md) |
 | 查原图及处理状态 | [数据结构原图清单](00_Assets/screenshots/408/DS/manifest.md) |
 
 ## 目录契约
@@ -40,7 +40,7 @@
 └── README.md                  # 本入口
 ```
 
-英语词汇、长难句与发音分支已收录材料；阅读分支仅有待启用模板，写作分支仍为空目录。高数的笔记、手稿 ZIP 已归档并登记：第一章函数、极限、连续在 P1 双文档，第二章导数与微分在 P2 双文档；ZIP 的 `partN` 只表示上传批次，不决定电子笔记分卷。当前课程口径为武忠祥高数基础阶段，具体教材口径以高数学科规则为准。政治考纲备考暂停至 2027 年 7 月，考纲分支仍为预留；通史兴趣阅读先翦伯赞《中国史纲要》、后吕思勉《中国通史》，现有读书笔记属于 `00_Readings/`，不能当作史纲考点。数据结构按四组规划：P1 第 1–4 章基础、P2 第 5–6 章树与图、P3 第 7 章查找已有双文档；第 8 章排序待原图上传核对后建立 P4。
+英语按能力分支组织：单词与短语分篇，语法知识与例句练习分篇并按具体标题互链；阅读分支保留证据与逻辑关系复盘及待启用模板，长文与真题尚未开始，写作分支仍为空目录。高数的笔记、手稿 ZIP 已归档并登记：第一章函数、极限、连续在 P1 双文档，第二章导数与微分在 P2 双文档；ZIP 的 `partN` 只表示上传批次，不决定电子笔记分卷。当前课程口径为武忠祥高数基础阶段，具体教材口径以高数学科规则为准。政治考纲备考暂停至 2027 年 7 月，考纲分支仍为预留；通史兴趣阅读先翦伯赞《中国史纲要》、后吕思勉《中国通史》，现有读书笔记属于 `00_Readings/`，不能当作史纲考点。数据结构按四组规划：P1 第 1–4 章基础、P2 第 5–6 章树与图、P3 第 7 章查找已有双文档；第 8 章排序待原图上传核对后建立 P4。
 
 ## 资料和证据
 

@@ -37,9 +37,19 @@ aliases:
 | **contrast / contrary** | 两者都有“相反”的线索；`contrast` 可作动词或名词，侧重比较差异；`contrary` 主要作形容词，表示相反的。 |
 | **contact / contract** | `contact` 是接触、联系；`contract` 可指合同，也可作动词表示收缩。前者联系“触碰”，后者联系“拉到一起”。 |
 
+## 语境义项：结构、程度与影响
+
+| 词 | 核心义与语境 | 边界与例句入口 |
+|---|---|---|
+| `texture` n. | 质地、纹理；抽象语境可涉及结构、特征或复杂面貌。 | 不能固定译成“本质”；见 [[EN-Syntax#句 1：研究、歧视倾向与社会影响]]。 |
+| `terrific` adj. | 极好的；也可表极大的、惊人的。 | 不因与 `terror` 字形相似就直译成“恐怖的”；生成句 `terrific consequences` 表达生硬，不能当成自然搭配。 |
+| `pillar` n. | 柱子；引申为支柱、重要支持。 | `pillars of stability` 在生成句中是比喻，见 [[EN-Vocabulary-Phrases#texture of 与 pillars of]]。 |
+| `significant` adj. | 重要的、显著的。 | 本次手稿只记录义项，没有完整例句，不据此扩充特定语境。 |
+| `repercussion` n. | 某事产生的间接影响，常指不利后果；常见复数 `repercussions`。 | 手稿记为“负面影响”，保留其常见倾向，不把所有“影响”都等同于它。 |
+
 ## 核对来源
 
 - 词义与辨析：[Cambridge consequence](https://dictionary.cambridge.org/dictionary/english/consequence)、[confidential](https://dictionary.cambridge.org/dictionary/english/confidential)、[considerable](https://dictionary.cambridge.org/dictionary/english/considerable)、[contemptuous](https://dictionary.cambridge.org/dictionary/english/contemptuous)、[contemptible](https://dictionary.cambridge.org/dictionary/english/contemptible)。
 - 词源：[Oxford considerable](https://www.oxfordlearnersdictionaries.com/definition/english/considerable)、[Etymonline precise](https://www.etymonline.com/word/precise)、[contempt](https://www.etymonline.com/word/contempt)、[preach](https://www.etymonline.com/word/preach)、[receipt](https://www.etymonline.com/word/receipt)、[emerge](https://www.etymonline.com/word/emerge)。
 
-**句法练习：** [[EN-Syntax]]；**阅读模板：** [[EN-Templates-Reading]]。
+**短语搭配：** [[EN-Vocabulary-Phrases]]；**语法知识：** [[EN-Syntax-Knowledge]]；**句法练习：** [[EN-Syntax]]；**阅读模板：** [[EN-Templates-Reading]]。
