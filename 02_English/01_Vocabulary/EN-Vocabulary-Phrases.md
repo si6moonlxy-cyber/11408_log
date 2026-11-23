@@ -71,3 +71,35 @@ aliases: [英语短语与搭配]
 ### texture of 与 pillars of
 
 `the texture of ...` 的抽象义依对象而定，可涉及结构、特征或复杂面貌，不能固定译为“本质”。`pillars` 的基本义是柱子；`pillars of stability` 在生成句中比喻支撑稳定的基础。单词辨析见 [[EN-Vocabulary#语境义项：结构、程度与影响]]，完整句见 [[EN-Syntax#句 1：研究、歧视倾向与社会影响]]。
+
+## 时间、活动与论述表达
+
+### take place
+
+**结构与含义：** 发生、举行。课堂的 `The activity will take place ...` 表示活动将举行；`will` 后使用原形 `take`，不能写成 `will taken place`。这个搭配在这里不使用被动。
+
+**语境与形式对比：** [[EN-Syntax#例题：will 后的 take place]]，其中也记录了你对 `will be taking place` 的追问。
+
+### enjoy widespread popularity
+
+**结构与含义：** 广受欢迎、享有广泛声誉；`enjoy` 在这里不是“享受某次娱乐”。课件例句的中心主语是单数 `dictionary`，谓语应为 `enjoys`。
+
+**对应例题：** [[EN-Syntax#例题：电子词典的主谓一致]]。短语页记录自然搭配，课件原句与改法在题目中保留。
+
+### as the saying goes
+
+**结构与含义：** 正如俗话所说。固定表达中的 `saying` 为单数，故用 `goes`；后面的主句独立检查主谓一致。
+
+**课堂表达：** `As the saying goes, actions speak louder than words.`，正如俗话所说，行动胜于言辞。见 [[EN-Syntax#例题：actions 与 saying 的主谓一致]]。
+
+### for some time 与 for several months
+
+**结构与含义：** `for + 一段时间`，说明时长；`for some time` 是一段时间，`for several months` 是几个月。它们本身不自动决定完成或进行形式。
+
+**语境：** [[EN-Syntax#例句：军服长度的现在完成时]] 的 `has not changed for some time`；[[EN-Syntax#例句：完成结果与持续过程]] 的 `have been working ... for several months`。
+
+### in the near future 与 by and large
+
+**结构与含义：** `in the near future` 指“不久的将来”；`by and large` 指“大体上、总的来说”，不按 `by`、`large` 的字面逐词翻译。
+
+**课堂阅读片段：** 问题问 `in the near future`，原文可辨部分有 `Gordon says that by and large, ...`。前者定位时间范围，后者限定判断的概括程度；仅记录完整可辨短语，不补写截图裁掉的引文。参照 [[EN-Reading-Foundation#过去至今与未来的时间范围]]。

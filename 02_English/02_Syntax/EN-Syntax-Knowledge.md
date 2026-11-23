@@ -65,7 +65,7 @@ aliases: [英语语法知识主干]
 
 ## 一般时态与时间视角（Simple Forms and Time Reference）
 
-本次只整理手稿与课件已经涉及的一般过去、一般现在、一般将来和过去将来。时态（tense）与时间概念有关，但形式与实际所指时间不总是一一对应；课堂“16 种”是时间视角与体（aspect）的教学组合框架，不在这里提前补全未学部分。
+一般过去、一般现在、一般将来和过去将来先确定时间视角；进行、完成与完成进行再说明从这个视角怎样看动作。时态（tense）与时间概念有关，但形式与实际所指时间不总是一一对应；课堂“16 种”是时间视角与体（aspect）的教学组合框架，本篇只展开已提供材料涉及的形式。
 
 | 课堂名称 | 常见谓语形式 | 阅读时的问题 |
 |---|---|---|
@@ -75,6 +75,65 @@ aliases: [英语语法知识主干]
 | 过去将来 | `would + 原形`；`was/were going to + 原形` | 是否从过去某个时间点看当时尚未发生的事？不能看见 `would` 就排除条件等其他含义。 |
 
 课堂定位例句见 [[EN-Syntax#例题：用时间线索定位一般过去]]。本次截图未提供时态专项个人作答，不据此宣称已掌握全部形式。
+
+### 时态选择与形式检查（Tense Choice and Verb Forms）
+
+先选“从哪个时间看事情”，再拼出该形式，最后核对主语的单复数。手稿将写作常见问题分为时态选择、时态形式、一般现在时主谓一致三类，三者要分别检查。
+
+| 检查层 | 要问的问题 | 对应课堂案例 |
+|---|---|---|
+| 时间视角 | 叙述的是已发生事件、当前状态还是未来安排？ | [[EN-Syntax#例题：今早发现电影票]] |
+| 谓语形式 | `will` 后是否为原形？进行谓语是否为 `be + -ing`？ | [[EN-Syntax#例题：will 后的 take place]]、[[EN-Syntax#例题：船上年轻人的动作描述]] |
+| 主谓一致 | 当前主语中心词是 `dictionary` 还是 `actions`？ | [[EN-Syntax#例题：电子词典的主谓一致]]、[[EN-Syntax#例题：actions 与 saying 的主谓一致]] |
+
+`This morning` 是时间线索，不是“必用一般过去”的口令：把发现当作过去事件叙述时用 `found`；上午仍在继续、从现在看此前的发现时，`have found` 也可以成立。见 [[EN-Syntax#例题：今早发现电影票]] 中你的追问。`It is ... since ...` 与 `It has been ... since ...` 均可成立，不能把所有出现 `since` 的主句都强制改成完成时，见 [[EN-Syntax#例题：久未见面的 since 结构]]。
+
+## 进行形式与动作过程（Continuous Forms）
+
+进行形式的共同结构是 `be + -ing`，用来从某个时间视角看正在展开的动作。`be` 承担时态和人称变化，实义动词使用 `-ing`；不能写成 `are leave`。本次手稿涉及以下三种：
+
+| 时间视角 | 谓语形式 | 识别重点 |
+|---|---|---|
+| 过去进行 | `was/were + -ing` | 过去某时正在展开的动作。 |
+| 现在进行 | `am/is/are + -ing` | 当前或当前阶段正在展开的动作。 |
+| 将来进行 | `will be + -ing` | 从现在看未来某时将正在进行的动作。 |
+
+选择进行形式要看语义和动词用法，不是把所有“发生在某时”的动作都改成进行时。课堂的 `leave` 与 `are leaving` 分别可作一般描述与正在进行的描述，见 [[EN-Syntax#例题：船上年轻人的动作描述]]；结构完整性另见 [[EN-Syntax#例题：进行结构缺少 are]]。
+
+## 完成形式与参照时间（Perfect Forms and Reference Time）
+
+完成形式的共同结构是 `have + 过去分词（past participle）`。它把事件或状态与某个参照时间联系起来：现在完成以现在为参照，过去完成以过去某时为参照，将来完成以未来某时为参照。手稿的“截止到某时间点之前、阶段性总结”可帮助定位，但不能理解成动作必然全部结束。
+
+| 形式 | 谓语结构 | 看时间关系时的重点 |
+|---|---|---|
+| 过去完成 | `had + 过去分词` | 在过去参照点之前已经发生或持续的情况，即手稿的“过去的过去”。 |
+| 现在完成 | `have/has + 过去分词` | 过去发生的事与现在有关，或状态／活动从过去持续到现在。 |
+| 将来完成 | `will have + 过去分词` | 预计到未来参照点时已经完成，或已经持续了一段时间。 |
+
+### 现在完成与一般过去（Present Perfect and Past Simple）
+
+| 对比 | 关注点 | 易混边界 |
+|---|---|---|
+| 一般过去 | 将事件放在已结束的过去时间框架中叙述。 | 不能仅凭中文有“了”就选现在完成，也不能认为一般过去所述事件必然“与现在无关”。 |
+| 现在完成 | 截至现在的结果、经历或延续。 | 不等于“一定做完”；否定、持续状态也可以用现在完成。 |
+| 过去完成 | 从过去的某个参照点再向前看。 | 需要语境中的过去参照，不是把所有较早事件都自动改成 `had done`。 |
+
+手稿红笔对比了“全部完成／部分完成”和“可持续”；整理时应转为检查**事件是否延续、参照时间在哪里**，不采用“全部完成就用一般过去、部分完成就用现在完成”的机械规则。`just / ever / never` 等可以提供语境线索，也不单独决定时态。
+
+过去完成所需的过去参照点可以是另一件事、明确的过去时间，也可以由前后文交代；不要求同一句一定出现另一个一般过去式。对应你的 `had found` 追问见 [[EN-Syntax#例题：今早发现电影票]]。
+
+课堂片段 `We have not won the match.` 说的是“截至现在尚未赢得比赛”，不是已经获胜；`the length ... has not changed for some time` 描述截至现在一段时间未变，不保证未来不会变。例句分别见 [[EN-Syntax#例句：完成结果与持续过程]]、[[EN-Syntax#例句：军服长度的现在完成时]]。
+
+## 现在完成进行形式（Present Perfect Continuous）
+
+结构是 `have/has been + -ing`。它从现在回看此前一段活动，强调过程、持续或重复；活动可延续到现在，也可刚停止而仍有当前影响。手稿中的“持续、重复、断续”提醒我们：不能理解为整个期间每一秒都没停。
+
+| 本次对比 | 关注点 | 课堂例句 |
+|---|---|---|
+| `have/has + 过去分词` | 结果、经历或延续状态，视动词与语境而定。 | `We have not won the match.` |
+| `have/has been + -ing` | 此前一段时间的活动过程。 | `We have been working hard for several months.` |
+
+现在完成不总表示活动已结束，完成进行也不总表示此刻仍在做；根据句意判断。完整译文与结构见 [[EN-Syntax#例句：完成结果与持续过程]]。本次只记录已出现的现在完成进行形式；手稿的“考研不考”不作为正式考试范围结论。
 
 ## 长名词词组与主语中心（Noun Phrase Heads）
 
@@ -114,4 +173,6 @@ aliases: [英语语法知识主干]
 
 - 句型与宾语：[Cambridge：Verb patterns](https://dictionary.cambridge.org/grammar/british-grammar/transitive-verbs)、[Objects](https://dictionary.cambridge.org/grammar/british-grammar/objects)。
 - 动词形式与时间：[Verbs: basic forms](https://dictionary.cambridge.org/grammar/british-grammar/verbs-basic-forms)、[Tenses and time](https://dictionary.cambridge.org/grammar/british-grammar/tenses-and-time)。
+- 完成形式的对比：[Present perfect simple or present perfect continuous?](https://dictionary.cambridge.org/grammar/british-grammar/present-perfect-continuous)；`since` 的结构边界：[Since](https://dictionary.cambridge.org/grammar/british-grammar/since)。
+- `this morning` 的开放／结束时间范围：[Cambridge：Past simple and present perfect](https://assets.cambridge.org/97811076/99892/excerpt/9781107699892_excerpt.pdf)；过去参照点：[British Council：Past perfect](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/past-perfect?page=2)；将来进行形式：[Cambridge：Future continuous](https://dictionary.cambridge.org/grammar/british-grammar/future-continuous/)。
 - 既有案例的具体核对链接留在 [[EN-Syntax]] 对应题目后，便于从规则回查例句。

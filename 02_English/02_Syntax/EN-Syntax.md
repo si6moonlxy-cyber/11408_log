@@ -2,7 +2,7 @@
 type: working-note
 subject: 英语（二）
 course: 22408
-source: 用户提供的句法整理草案；DeepSeek 生成例句；Cambridge Grammar 核对
+source: 个人手稿与课堂截图；既有句法草案与 DeepSeek 练习及追问；Cambridge Grammar 核对
 status: active
 tags:
   - 英语
@@ -100,6 +100,127 @@ aliases:
 
 **知识点：** [[EN-Syntax-Knowledge#一般时态与时间视角（Simple Forms and Time Reference）]]。一般现在、一般将来、过去将来的形式见知识篇，本批只有讲解截图，没有这些形式的个人作答。
 
+
+## 时态选择、形式与主谓一致
+
+本节为手稿和课堂截图中的时态讲解、写作改错与阅读片段，没有个人作答记录。课件标注“考研写作”仅说明使用场景，不作为历年真题出处。
+
+### 例题：今早发现电影票
+
+**课堂原句：** This morning I find a movie ticket in my pocket.
+
+**课堂改法：** This morning I found a movie ticket in my pocket.
+
+**主干与译法：** `I found a movie ticket` 是主干，`this morning` 表时间，`in my pocket` 表地点：今天早上，我在口袋里发现了一张电影票。
+
+**检查点：** 课堂按已发生的发现事件叙述，因此把 `find` 改为过去式 `found`。不能推广成“出现 this morning 就必用一般过去”；选择还取决于正在采用的叙述视角。
+
+**你的追问与核对：** 你在 [DeepSeek 对话](https://chat.deepseek.com/share/uha7kjmawu0g4srqnj) 中依次问“这里可以是 had found 吗”“过去完成时，存在于一般过去式之前对吗”和“可以改写成 have found 吗”。这些是对时间关系的追问，不登记为个人错题。
+
+| 写法 | 能否使用 | 判断条件 |
+|---|---|---|
+| `This morning I found a movie ticket in my pocket.` | 可用，是课堂的叙述方式。 | 将发现视作过去已经发生的事件。 |
+| `This morning I had found a movie ticket in my pocket.` | 不能只凭这一孤立句确定需要过去完成；有合适上下文时可以成立。 | 找到晚于“发现”、但仍在过去的参照点。参照点可以在上下文或时间短语中，不必同句另有一个一般过去式。 |
+| `This morning I have found a movie ticket in my pocket.` | 在相应语境中可以成立。 | 说话时仍在早上，且把早上视为延续至当前的时段，并强调截至现在的发现；若上午已经结束，通常按过去事件用 `found`。 |
+
+DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `have found` 绝不能连用，不成立。它又把过去完成的参照点一度限定为“另一个一般过去时”，也过于狭窄。“过去的过去”是入门线索，更准确的提问是“从哪个过去参照点回看这次发现”。一般过去的动作也可能与现在有关，不能解释成“与现在无关”。
+
+**回到知识点：** [[EN-Syntax-Knowledge#时态选择与形式检查（Tense Choice and Verb Forms）]]。
+
+核对依据：[Cambridge：Past simple and present perfect](https://assets.cambridge.org/97811076/99892/excerpt/9781107699892_excerpt.pdf)、[British Council：Past perfect](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/past-perfect?page=2)。
+
+### 例题：久未见面的 since 结构
+
+**课堂原句：** It is a long time since we met last time.
+
+**课堂改法：** It has been a long time since we met last time.
+
+**主干与译法：** `It has been a long time` 表示已隔了很久；`since we met last time` 回指上次见面的时间：我们已经很久没见面了。
+
+**核对与边界：** 课堂将原句归为“时态选择错误”，但 `It is + 一段时间 + since ...` 和 `It has been + 一段时间 + since ...` 都可以成立，不能仅凭 `is` 判原句必错。更简洁的改写是 `It has been a long time since we last met.`；这是另给的改写，不替换上面的课堂原句。
+
+**回到知识点：** [[EN-Syntax-Knowledge#时态选择与形式检查（Tense Choice and Verb Forms）]]；核对依据：[Cambridge：Since](https://dictionary.cambridge.org/grammar/british-grammar/since)。
+
+### 例题：will 后的 take place
+
+**课堂原句：** The activity will taken place from 9:00 am to 10:00 pm on the playground.
+
+**订正：** The activity will take place from 9:00 am to 10:00 pm on the playground.
+
+**主干与译法：** `The activity will take place` 是主干；`from ... to ...` 表时间范围，`on the playground` 表地点：活动将于上午九点至晚上十点在操场举行。
+
+**检查点：** `will` 后接动词原形 `take`，不是过去分词 `taken`。`take place` 是“发生／举行”的整体表达，不能在本句套成被动。
+
+**你的追问：** 你在 [DeepSeek 对话](https://chat.deepseek.com/share/uha7kjmawu0g4srqnj) 中问“will be taking 可以吗”。保留搭配中的 `place`，可以改写为 `The activity will be taking place from 9:00 am to 10:00 pm on the playground.`。`will take place` 陈述未来安排，`will be taking place` 从未来视角看活动正在进行；有时间范围不等于必须用进行时，也不能只因跨度为 13 小时就推定期间绝无间断。
+
+**回到知识点：** [[EN-Syntax-Knowledge#时态选择与形式检查（Tense Choice and Verb Forms）]]；短语见 [[EN-Vocabulary-Phrases#take place]]。
+
+进行形式见 [[EN-Syntax-Knowledge#进行形式与动作过程（Continuous Forms）]]；核对依据：[Cambridge：Future continuous](https://dictionary.cambridge.org/grammar/british-grammar/future-continuous/)。
+
+### 例题：船上年轻人的动作描述
+
+**课堂原句：** Two youngsters on the boat are leave their rubbish on the water.
+
+**课堂给出的两种改法：**
+
+- Two youngsters on the boat leave their rubbish on the water.
+- Two youngsters on the boat are leaving their rubbish on the water.
+
+**主干与译法：** 主语中心是 `youngsters`，`on the boat` 修饰他们；前一种是一般描述“两名船上的年轻人把垃圾丢在水上”，后一种突出“正在丢垃圾”。
+
+**检查点：** 不能混拼 `are + 原形 leave`。一般现在用 `leave`，现在进行用 `are leaving`；具体选哪一个由描述意图和语境决定。
+
+**回到知识点：** [[EN-Syntax-Knowledge#进行形式与动作过程（Continuous Forms）]]。
+
+### 例题：电子词典的主谓一致
+
+**课堂原句：** The electronic dictionary enjoy a widespread popularity among people.
+
+**课堂改法：** The electronic dictionary enjoys a widespread popularity among people.
+
+**主干与译法：** `The electronic dictionary enjoys ... popularity` 是主干：电子词典广受人们欢迎。
+
+**检查点：** 主语中心 `dictionary` 是单数；一般现在时的动词用第三人称单数 `enjoys`。课件这一步只改主谓一致；搭配复习可记为 `enjoy widespread popularity`，其中 `enjoy` 在此意为“享有”。
+
+**回到知识点：** [[EN-Syntax-Knowledge#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]；搭配见 [[EN-Vocabulary-Phrases#enjoy widespread popularity]]。
+
+### 例题：actions 与 saying 的主谓一致
+
+**课堂原句：** As the saying goes, actions speaks louder than words.
+
+**订正：** As the saying goes, actions speak louder than words.
+
+**主干与译法：** 主句是 `actions speak louder than words`：正如俗话所说，行动胜于言辞。
+
+**检查点：** 不同分句分别找主语：前半句 `the saying` 为单数，所以用 `goes`；主句 `actions` 为复数，所以用 `speak`。不能把前一分句的单数形式带到后一分句。
+
+**回到知识点：** [[EN-Syntax-Knowledge#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]；表达见 [[EN-Vocabulary-Phrases#as the saying goes]]。
+
+### 例句：完成结果与持续过程
+
+**课堂原句 1：** We have not won the match.
+
+**解析与译法：** `We` 是主语，`have not won` 为现在完成时的否定谓语，`the match` 是宾语：我们还没有赢得这场比赛。`won` 是 `win` 的过去分词；不能因看到完成时就读成“比赛已经赢了”。
+
+**课堂原句 2：** We have been working hard for several months.
+
+**解析与译法：** `have been working` 是现在完成进行谓语，`hard` 说明工作状态，`for several months` 说明持续时长：我们几个月来一直在努力工作。句子强调一段活动过程，不要求几个月内每时每刻都不间断。
+
+**对比检查：** 先认出 `have + 过去分词` 与 `have been + -ing`，再判断否定、结果和过程。两句动词、命题不同，是展示两种表达重点，不是同一件事只替换时态的最小对比。
+
+**回到知识点：** [[EN-Syntax-Knowledge#完成形式与参照时间（Perfect Forms and Reference Time）]]、[[EN-Syntax-Knowledge#现在完成进行形式（Present Perfect Continuous）]]。
+
+### 例句：军服长度的现在完成时
+
+**截图中的完整句：** She says that, unlike those for basketball, the length of military uniforms has not changed for some time.
+
+**主干与修饰：** 外层是 `She says that ...`，`that` 引出所说内容；从句主语中心为 `length`，谓语为 `has not changed`，`for some time` 表示截至现在的一段时间，`unlike those for basketball` 插入比较信息。
+
+**译文：** 她说，与篮球服的情况不同，军服的长度已有一段时间没有变化了。
+
+**检查点：** `has` 对应单数中心词 `length`，不与靠近它的复数 `uniforms` 配合；`has not changed` 不等于未来的 `will remain unchanged`。阅读中如何核对时间范围，见 [[EN-Reading-Foundation#过去至今与未来的时间范围]]。
+
+**回到知识点：** [[EN-Syntax-Knowledge#现在完成与一般过去（Present Perfect and Past Simple）]]。
 
 ## 词位与动词搭配案例
 
