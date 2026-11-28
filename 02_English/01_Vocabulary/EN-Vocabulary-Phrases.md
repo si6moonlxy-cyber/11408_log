@@ -24,7 +24,7 @@ aliases: [英语短语与搭配]
 
 **结构与含义：** 做某事的倾向，`to do` 说明倾向的具体内容。`the consequences of its tendency to discriminate` 的中心是 `consequences`，不是 `tendency` 或 `discriminate`。
 
-**语境：** `its tendency to discriminate`，该制度的歧视倾向。见 [[EN-Syntax#句 1：研究、歧视倾向与社会影响]] 与 [[EN-Syntax-Knowledge#长名词词组与主语中心（Noun Phrase Heads）]]。
+**语境：** `its tendency to discriminate`，该制度的歧视倾向。见 [[EN-Syntax#句 1：研究、歧视倾向与社会影响]] 与 [[EN-Syntax-Topics#长名词词组与主语中心（Noun Phrase Heads）]]。
 
 ### discriminate against
 
@@ -42,7 +42,7 @@ aliases: [英语短语与搭配]
 
 **结构与含义：** 把某种观念或情绪逐步灌输给某人。`A` 是内容，`B` 是接受者；语法上是直接宾语加介词词组，不能叫作双宾语结构。
 
-**练习片段：** `instilling terror in the marginalized`，使被边缘化群体产生恐惧。不能译成“恐惧徘徊在社会边缘”。见 [[EN-Syntax#句 1：研究、歧视倾向与社会影响]] 与 [[EN-Syntax-Knowledge#the 加形容词表示人群（The + Adjective）]]。
+**练习片段：** `instilling terror in the marginalized`，使被边缘化群体产生恐惧。不能译成“恐惧徘徊在社会边缘”。见 [[EN-Syntax#句 1：研究、歧视倾向与社会影响]] 与 [[EN-Syntax-Topics#the 加形容词表示人群（The + Adjective）]]。
 
 ## 归因、处理与评价
 

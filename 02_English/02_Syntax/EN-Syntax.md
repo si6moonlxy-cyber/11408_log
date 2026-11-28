@@ -62,7 +62,7 @@ aliases:
 
 **解析与译法：** `rose` 已是 `rise` 的过去式，表示数值上升；此处不需要 `was`。全句为“该数值在 2020 年大幅上升至 300 亿”。`rise` 在这里是不及物用法，不能把 `was rose` 当作被动谓语。
 
-**下次检查：** 区分过去式、过去分词与助动词，不按“动词前都加 be”拼句。规则见 [[EN-Syntax-Knowledge#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]。
+**下次检查：** 区分过去式、过去分词与助动词，不按“动词前都加 be”拼句。规则见 [[EN-Syntax-Topics#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]。
 
 ### 例题：进行结构缺少 are
 
@@ -72,7 +72,7 @@ aliases:
 
 **解析与译法：** 在课堂所设的独立陈述句中，`considering` 需与 `are` 构成进行谓语；意思是“两名女孩正在认真考虑是否参加这场讲座”。`whether ...` 说明考虑的内容。
 
-**下次检查：** 区别 `-ing` 作修饰成分与构成完整进行谓语；此处补的是限定动词。规则见 [[EN-Syntax-Knowledge#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]。
+**下次检查：** 区别 `-ing` 作修饰成分与构成完整进行谓语；此处补的是限定动词。规则见 [[EN-Syntax-Topics#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]。
 
 ### 例题：多余主语与主谓不一致
 
@@ -82,7 +82,7 @@ aliases:
 
 **解析与译法：** 主语中心词 `opinions` 为复数，删除额外的 `it`，并将 `doesn't` 改为 `don't`。意思是“别人的意见并不重要”；这是例句的主张，不是普遍价值判断。
 
-**下次检查：** 先找中心词与数，再检查是否重复放入代词。规则见 [[EN-Syntax-Knowledge#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]。
+**下次检查：** 先找中心词与数，再检查是否重复放入代词。规则见 [[EN-Syntax-Topics#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]。
 
 ### 例题：宾语名词缺失
 
@@ -92,13 +92,13 @@ aliases:
 
 **解析与译法：** 本句 `some important ...` 还缺被形容词修饰的名词；课件给出 `values/aspects` 两种补法。分别可译为“它们可能说明中国文化中的一些重要价值观／方面”。保留两种选择，不根据孤立句替课件指定唯一对象。
 
-**下次检查：** 本句 `important` 是形容词，不能独自承担这里的宾语名词。规则见 [[EN-Syntax-Knowledge#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]。
+**下次检查：** 本句 `important` 是形容词，不能独自承担这里的宾语名词。规则见 [[EN-Syntax-Topics#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]。
 
 ### 例题：用时间线索定位一般过去
 
 回看 [[EN-Syntax#例题：主动过去式前误加 was]] 的 `in 2020`：例句叙述过去时间点的上升事件，因此用 `rose`。手稿中的 `did` 是过去式的一般记号，不能将本句机械写成 `The figure did ...`。
 
-**知识点：** [[EN-Syntax-Knowledge#一般时态与时间视角（Simple Forms and Time Reference）]]。一般现在、一般将来、过去将来的形式见知识篇，本批只有讲解截图，没有这些形式的个人作答。
+**知识点：** [[EN-Syntax-Knowledge#时态总表]]。一般现在、一般将来、过去将来的形式见知识篇，本批只有讲解截图，没有这些形式的个人作答。
 
 
 ## 时态选择、形式与主谓一致
@@ -125,7 +125,7 @@ aliases:
 
 DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `have found` 绝不能连用，不成立。它又把过去完成的参照点一度限定为“另一个一般过去时”，也过于狭窄。“过去的过去”是入门线索，更准确的提问是“从哪个过去参照点回看这次发现”。一般过去的动作也可能与现在有关，不能解释成“与现在无关”。
 
-**回到知识点：** [[EN-Syntax-Knowledge#时态选择与形式检查（Tense Choice and Verb Forms）]]。
+**回到知识点：** [[EN-Syntax-Topics#时态选择与形式检查（Tense Choice and Verb Forms）]]。
 
 核对依据：[Cambridge：Past simple and present perfect](https://assets.cambridge.org/97811076/99892/excerpt/9781107699892_excerpt.pdf)、[British Council：Past perfect](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/past-perfect?page=2)。
 
@@ -139,7 +139,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **核对与边界：** 课堂将原句归为“时态选择错误”，但 `It is + 一段时间 + since ...` 和 `It has been + 一段时间 + since ...` 都可以成立，不能仅凭 `is` 判原句必错。更简洁的改写是 `It has been a long time since we last met.`；这是另给的改写，不替换上面的课堂原句。
 
-**回到知识点：** [[EN-Syntax-Knowledge#时态选择与形式检查（Tense Choice and Verb Forms）]]；核对依据：[Cambridge：Since](https://dictionary.cambridge.org/grammar/british-grammar/since)。
+**回到知识点：** [[EN-Syntax-Topics#时态选择与形式检查（Tense Choice and Verb Forms）]]；核对依据：[Cambridge：Since](https://dictionary.cambridge.org/grammar/british-grammar/since)。
 
 ### 例题：will 后的 take place
 
@@ -153,9 +153,9 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **你的追问：** 你在 [DeepSeek 对话](https://chat.deepseek.com/share/uha7kjmawu0g4srqnj) 中问“will be taking 可以吗”。保留搭配中的 `place`，可以改写为 `The activity will be taking place from 9:00 am to 10:00 pm on the playground.`。`will take place` 陈述未来安排，`will be taking place` 从未来视角看活动正在进行；有时间范围不等于必须用进行时，也不能只因跨度为 13 小时就推定期间绝无间断。
 
-**回到知识点：** [[EN-Syntax-Knowledge#时态选择与形式检查（Tense Choice and Verb Forms）]]；短语见 [[EN-Vocabulary-Phrases#take place]]。
+**回到知识点：** [[EN-Syntax-Topics#时态选择与形式检查（Tense Choice and Verb Forms）]]；短语见 [[EN-Vocabulary-Phrases#take place]]。
 
-进行形式见 [[EN-Syntax-Knowledge#进行形式与动作过程（Continuous Forms）]]；核对依据：[Cambridge：Future continuous](https://dictionary.cambridge.org/grammar/british-grammar/future-continuous/)。
+进行形式见 [[EN-Syntax-Knowledge#同一个动作在哪个时间进行]]；核对依据：[Cambridge：Future continuous](https://dictionary.cambridge.org/grammar/british-grammar/future-continuous/)。
 
 ### 例题：船上年轻人的动作描述
 
@@ -170,7 +170,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **检查点：** 不能混拼 `are + 原形 leave`。一般现在用 `leave`，现在进行用 `are leaving`；具体选哪一个由描述意图和语境决定。
 
-**回到知识点：** [[EN-Syntax-Knowledge#进行形式与动作过程（Continuous Forms）]]。
+**回到知识点：** [[EN-Syntax-Knowledge#同一个动作在哪个时间进行]]。
 
 ### 例题：电子词典的主谓一致
 
@@ -182,7 +182,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **检查点：** 主语中心 `dictionary` 是单数；一般现在时的动词用第三人称单数 `enjoys`。课件这一步只改主谓一致；搭配复习可记为 `enjoy widespread popularity`，其中 `enjoy` 在此意为“享有”。
 
-**回到知识点：** [[EN-Syntax-Knowledge#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]；搭配见 [[EN-Vocabulary-Phrases#enjoy widespread popularity]]。
+**回到知识点：** [[EN-Syntax-Topics#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]；搭配见 [[EN-Vocabulary-Phrases#enjoy widespread popularity]]。
 
 ### 例题：actions 与 saying 的主谓一致
 
@@ -194,7 +194,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **检查点：** 不同分句分别找主语：前半句 `the saying` 为单数，所以用 `goes`；主句 `actions` 为复数，所以用 `speak`。不能把前一分句的单数形式带到后一分句。
 
-**回到知识点：** [[EN-Syntax-Knowledge#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]；表达见 [[EN-Vocabulary-Phrases#as the saying goes]]。
+**回到知识点：** [[EN-Syntax-Topics#谓语完整性与主谓一致（Verb Phrase Completeness and Subject–Verb Agreement）]]；表达见 [[EN-Vocabulary-Phrases#as the saying goes]]。
 
 ### 例句：完成结果与持续过程
 
@@ -208,7 +208,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **对比检查：** 先认出 `have + 过去分词` 与 `have been + -ing`，再判断否定、结果和过程。两句动词、命题不同，是展示两种表达重点，不是同一件事只替换时态的最小对比。
 
-**回到知识点：** [[EN-Syntax-Knowledge#完成形式与参照时间（Perfect Forms and Reference Time）]]、[[EN-Syntax-Knowledge#现在完成进行形式（Present Perfect Continuous）]]。
+**回到知识点：** [[EN-Syntax-Knowledge#找到票后从哪个时间点回看]]、[[EN-Syntax-Knowledge#写了多少与写了多久]]。
 
 ### 例句：军服长度的现在完成时
 
@@ -220,7 +220,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **检查点：** `has` 对应单数中心词 `length`，不与靠近它的复数 `uniforms` 配合；`has not changed` 不等于未来的 `will remain unchanged`。阅读中如何核对时间范围，见 [[EN-Reading-Foundation#过去至今与未来的时间范围]]。
 
-**回到知识点：** [[EN-Syntax-Knowledge#现在完成与一般过去（Present Perfect and Past Simple）]]。
+**回到知识点：** [[EN-Syntax-Knowledge#找到票后从哪个时间点回看]]。
 
 ## 词位与动词搭配案例
 
@@ -245,7 +245,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 核对依据：[Cambridge Grammar：Down, downwards or downward?](https://dictionary.cambridge.org/grammar/british-grammar/down-downwards-or-downward)、[Cambridge downward 词条](https://dictionary.cambridge.org/dictionary/english/downward)。
 
-**回到知识点：** [[EN-Syntax-Knowledge#修饰语与动词搭配（Modifiers and Verb Patterns）]]。
+**回到知识点：** [[EN-Syntax-Topics#修饰语与动词搭配（Modifiers and Verb Patterns）]]。
 
 ### `like` 后接动词
 
@@ -258,7 +258,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 语法依据：[Cambridge Grammar：like](https://dictionary.cambridge.org/grammar/british-grammar/like)。
 
-**回到知识点：** [[EN-Syntax-Knowledge#修饰语与动词搭配（Modifiers and Verb Patterns）]]。
+**回到知识点：** [[EN-Syntax-Topics#修饰语与动词搭配（Modifiers and Verb Patterns）]]。
 
 ### Codex 与 DeepSeek 场景
 
@@ -268,7 +268,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 ## 复合句的主干与从句层次
 
-**规则入口：** [[EN-Syntax-Knowledge#从句与连接关系（Clauses and Linking Relations）]]
+**规则入口：** [[EN-Syntax-Topics#从句与连接关系（Clauses and Linking Relations）]]
 
 ### 句 2：调查与资金储备
 
@@ -299,7 +299,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 本次作答抓到了 `survey`、`indicates` 和 `that`，但把结论读成“公司因赤字倒闭”。改进点是进入 `that` 从句后，继续追踪 `reserve` 与 `survive` 的动作方向。
 
-**回到知识点：** [[EN-Syntax-Knowledge#从句与连接关系（Clauses and Linking Relations）]]
+**回到知识点：** [[EN-Syntax-Topics#从句与连接关系（Clauses and Linking Relations）]]
 
 ### 句 1：数字战略与长期成本（演示句）
 
@@ -318,7 +318,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **表达校对**：原句的 `expired competitive advantages` 不够自然；若表达“优势逐渐丧失”，可用 `eroded competitive advantages`。这是改写建议，不是原句。
 
-**回到知识点：** [[EN-Syntax-Knowledge#从句与连接关系（Clauses and Linking Relations）]]
+**回到知识点：** [[EN-Syntax-Topics#从句与连接关系（Clauses and Linking Relations）]]
 
 ### 句 3：AI 政策实施失败
 
@@ -337,7 +337,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **本次作答复盘**：你认出了 `implementation`，也抓到了“管理者忽视负面反馈”的意思；下一步先用 `has failed` 确定主句，再把 `as ... ignored ...` 放回原因从句。`colleagues` 在此是“同事”。
 
-**回到知识点：** [[EN-Syntax-Knowledge#从句与连接关系（Clauses and Linking Relations）]]
+**回到知识点：** [[EN-Syntax-Topics#从句与连接关系（Clauses and Linking Relations）]]
 
 ### 句 5：利率与临时救援计划
 
@@ -356,7 +356,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **本次作答复盘与原句问题**：你认出了 `the central bank`，但把 `rescue plan` 当作谓语；应回看它前面的动词 `launched`。`interest rates` 是“利率”，`analysts` 是“分析师”。原句主语 `lower interest rates` 为复数，谓语应为 `stimulate`；这里 `confess` 用 `acknowledge` 更自然。
 
-**回到知识点：** [[EN-Syntax-Knowledge#从句与连接关系（Clauses and Linking Relations）]]
+**回到知识点：** [[EN-Syntax-Topics#从句与连接关系（Clauses and Linking Relations）]]
 
 ### 句 8：市场调查与短期利润
 
@@ -376,7 +376,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **本次作答复盘与原句问题**：你找到了 `Although`、前一个 `that` 和冒号后的内容；需把 `Although` 改判为“让步”，并把 `has made property values highly vulnerable` 读成“使房产价值脆弱”，不是“短期利益脆弱”。`reveals a shocking revelation` 重复累赘；“房产价值脆弱”与最后的“传统观念”之间的论证联系也不够明确，这些是生成句本身的问题。
 
-**回到知识点：** [[EN-Syntax-Knowledge#从句与连接关系（Clauses and Linking Relations）]]
+**回到知识点：** [[EN-Syntax-Topics#从句与连接关系（Clauses and Linking Relations）]]
 
 ### 句 2：学术剽窃的起因与评价
 
@@ -395,7 +395,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **本次作答复盘与原句问题**：你抓到了 `but` 两侧的话题以及 `researchers treat it`，但前半句还需补上外层谓语 `remains debatable`；`self-discipline` 是“自律”，`rather than` 否定的是“仅仅违反礼貌”这一较弱判断。原句把 `the origin ...` 直接说成 `a lack of self-discipline`，搭配略生硬；若保留“在多大程度上”的意思，可另写为 `To what extent academic plagiarism can be attributed to a lack of self-discipline remains debatable.` 这是改写，不是原句。`To what extent` 在本句引出主语从句，不能据此认为它在所有句子里都如此使用。
 
-**回到知识点：** [[EN-Syntax-Knowledge#从句与连接关系（Clauses and Linking Relations）]]
+**回到知识点：** [[EN-Syntax-Topics#从句与连接关系（Clauses and Linking Relations）]]
 
 ## 并列成分、宾语与补语
 
@@ -462,7 +462,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 ## 让步、指代与分词修饰
 
-**规则入口：** [[EN-Syntax-Knowledge#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
+**规则入口：** [[EN-Syntax-Topics#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
 
 ### 句 1：监控禁令及其结果
 
@@ -493,7 +493,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 本次作答把 `Despite`、`advancements`、`AI` 当作主干。可核对的改进点是先找到 `is prohibited`，再向前确认它的主语，最后补回让步与结果。`public surveillance` 的具体监控对象不应从原句推定。
 
-**回到知识点：** [[EN-Syntax-Knowledge#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
+**回到知识点：** [[EN-Syntax-Topics#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
 
 ### 句 4：隐私法规与处罚
 
@@ -512,7 +512,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **本次作答复盘与原句问题**：你找对了 `regulations` 和 `incur`，但把 `incur severe penalties` 的处罚关系读成了公司利用漏洞。英语里通常是**公司** `incur penalties`（招致处罚），法规 `impose penalties`（施加处罚）；原句把 `regulations` 与 `incur` 搭配，不够自然。可改为 `tech companies often incur severe penalties under ambiguous regulations`，与原句分开理解。
 
-**回到知识点：** [[EN-Syntax-Knowledge#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
+**回到知识点：** [[EN-Syntax-Topics#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
 
 ### 句 6：多余法规与内部冲突
 
@@ -531,7 +531,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **本次作答复盘**：你识别了 `while`，也读出委员会启动战略这一层；要再跨过逗号找主句的 `regulations may spur conflicts`。`superfluous` 是“多余的”，`suffice` 是“足够”；原句没有说明利润足够满足什么，译文不补出对象。
 
-**回到知识点：** [[EN-Syntax-Knowledge#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
+**回到知识点：** [[EN-Syntax-Topics#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
 
 ### 句 7：欺诈调查与高管声誉
 
@@ -550,7 +550,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **本次作答复盘与原句问题**：你认出了 `which`、`whose` 和 `consequently`，也抓到了“揭露罪魁祸首、声誉受损”的大意；主干仍要补上 `has identified`。`has identified` 与 `which ... damaged` 的时态衔接、`which` 的指代以及 `swear to reform` 改革什么，都不够清楚，阅读时不应自行补造事实。
 
-**回到知识点：** [[EN-Syntax-Knowledge#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
+**回到知识点：** [[EN-Syntax-Topics#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
 
 ### 句 1：系统故障的归因
 
@@ -570,7 +570,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **本次作答复盘**：你抓到了 `Although` 和 `attribute ... to ...` 的归因关系，也认出了 `which`；进一步要区分让步从句的 `pitch was built` 与主句的 `investigators attribute failures to ...`。`trivial` 修饰代码错误，`perpetual` 修饰系统故障；句尾 `which` 的指代保留歧义，不把它算作你已确定的理解。
 
-**回到知识点：** [[EN-Syntax-Knowledge#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
+**回到知识点：** [[EN-Syntax-Topics#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
 
 ### 句 1：研究、歧视倾向与社会影响
 
@@ -591,7 +591,7 @@ DeepSeek 把 `this morning` 一律说成已结束的过去时间、断言与 `ha
 
 **本次作答复盘与原句问题**：你准确识别了 `shed light on`、`tendency to do sth.` 和 `shear off`，并查出了 `pillars` 的基本义。接下来需优先压缩长名词短语，先还原 `consequences continue to vibrate`，再补 `of its tendency to discriminate`；同时固定检查 `instill A in B` 的内容与对象，避免把“向边缘化群体灌输恐惧”译成“恐惧徘徊在社会边缘”。原句的 `terrific consequences` 容易被理解成褒义的“极好的后果”，而 `vibrate across society`、末尾两层分词之间的因果关系也较生硬；把它用于句法训练即可，不将整句当作自然表达模板。
 
-**回到知识点：** [[EN-Syntax-Knowledge#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
+**回到知识点：** [[EN-Syntax-Topics#非谓语与分词补充（Non-finite Forms and Participial Supplements）]]
 
 ## 练习来源与复盘边界
 

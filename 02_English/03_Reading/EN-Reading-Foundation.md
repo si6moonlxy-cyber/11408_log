@@ -18,7 +18,7 @@ aliases: [英语阅读基础补丁包]
 
 ## 保留风险、程度与评价方向
 
-“威胁要发生”与“已经发生”不同；“在多大程度上仍有争议”与“已经证明”不同。概括作者观点时应保留这些限制；结构识别见 [[EN-Syntax-Knowledge#非谓语与分词补充（Non-finite Forms and Participial Supplements）]] 与 [[EN-Syntax#句 2：学术剽窃的起因与评价]]。
+“威胁要发生”与“已经发生”不同；“在多大程度上仍有争议”与“已经证明”不同。概括作者观点时应保留这些限制；结构识别见 [[EN-Syntax-Topics#非谓语与分词补充（Non-finite Forms and Participial Supplements）]] 与 [[EN-Syntax#句 2：学术剽窃的起因与评价]]。
 
 ## 区分原文、推断与生成材料的问题
 
